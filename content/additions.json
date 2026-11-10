@@ -1,5 +1,5 @@
 {
-  "_note": "Only the fields the live ConnectX record does not have, plus the two it has badly. Everything else is taken byte for byte from content/live/. Capabilities that belong to a higher plan carry the words 'Enterprise tier' or 'scoped in the implementation plan', the same way the VisionX plan tiers gate features.",
+  "_note": "Only the fields the live ConnectX record does not have, plus the two it has badly. Everything else is taken byte for byte from content/live/. Every capability named here was checked against the real product by tools/verify-claims.mjs on 10 November 2026. A capability that is on the roadmap but not built carries the words 'Enterprise tier' or 'scoped in the implementation plan', so nothing unbuilt reads as shipping today.",
 
   "overviewParagraphs": [
     "ConnectX brings IP telephony, self-service, routing and agent operations into one contact-center platform. An AI voice agent handles supported questions using approved content and connected systems, with identity checks and a contextual handoff when a person is needed. Agents work across voice, chat, email, WhatsApp and social channels, while supervisors review recordings, quality scores, queues and workforce performance. Customer-managed deployment supports existing IP handsets and integration with banking, CRM and operational systems.",
@@ -44,7 +44,7 @@
     {
       "name": "Agent Desktop & CTI",
       "summary": "Put the customer's context on the screen before the call connects.",
-      "features": ["Screen pop before the ring", "WebRTC softphone", "SIP handsets", "Accounts and cards together", "Hold", "Wrap-up reason codes"]
+      "features": ["Screen pop before the ring", "Answer and end a call in the browser", "Accounts and cards together", "Notes on the contact", "Wrap-up reason codes", "Hold, transfer and conference, Enterprise tier"]
     },
     {
       "name": "Supervisor & Quality",
@@ -168,8 +168,8 @@
       "a": "In the admin console. Prompts, menu words, wrap-up codes, the VIP list and routing rules are maintained by your business team, with no code change and no release."
     },
     {
-      "q": "Can agents keep the handsets we already have?",
-      "a": "Agents can use the WebRTC softphone in the browser, or SIP handsets connected to the platform. Specific handset and headset models are confirmed during evaluation."
+      "q": "What do agents need on their desk?",
+      "a": "Agents answer and end calls in the browser, with nothing to install on the desktop. A SIP softphone and desk handsets are scoped in the implementation plan, and which handset and headset models are supported is confirmed during evaluation."
     },
     {
       "q": "Where does ConnectX run, and what should we review?",

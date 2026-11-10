@@ -25,7 +25,7 @@ The AI agent sits in the core of the platform rather than in front of it. It ans
 - **AI Virtual Agent.** Answer supported voice and chat questions from approved sources, under your identity policy. *(Bangla and English, Approved-source answers, Five identity tiers, Context handoff, Conversation memory, Decision log per turn)*
 - **IVR & Self-Service.** Run supported self-service operations from the phone menu, connected to your systems. *(Menu words edited in the console, Masked sensitive entry, Connected account operations, Handover with full context, No release needed, Drag-and-drop flow designer, scoped in the implementation plan)*
 - **ACD & Routing.** Send each contact to the right agent and keep the promise you made the caller. *(Skill-based routing, Priority and VIP lane, Wait time and queue position, Return to the last agent, Callbacks, Queue overflow to a named desk, Service level by band)*
-- **Agent Desktop & CTI.** Put the customer's context on the screen before the call connects. *(Screen pop before the ring, WebRTC softphone, SIP handsets, Accounts and cards together, Hold, Wrap-up reason codes)*
+- **Agent Desktop & CTI.** Put the customer's context on the screen before the call connects. *(Screen pop before the ring, Answer and end a call in the browser, Accounts and cards together, Notes on the contact, Wrap-up reason codes, Hold, transfer and conference, Enterprise tier)*
 - **Supervisor & Quality.** Watch the floor, trace any conversation and set what each agent may do. *(Live floor and queue view, Trace one conversation end to end, Roles and permissions, Skills and the VIP list, Wrap-up reasons and categories, Call recording and quality scoring, Enterprise tier)*
 - **Omnichannel & Knowledge.** Keep one queue and one customer history across every channel. *(Voice and web chat, WhatsApp, Messenger, email and SMS, One universal queue, Knowledge base with named sources, One customer history, CRM synchronization, scoped in the implementation plan)*
 - **Reporting & Wallboards.** Move from a number on the board to the conversation behind it. *(Browser wallboard, Service level by band, Drill down to the conversation, Handover reasons, Intents by volume, Agent time saved, Power BI connection, scoped in the implementation plan)*
@@ -140,9 +140,9 @@ Supported self-service operations are connected to your authorized systems and g
 
 In the admin console. Prompts, menu words, wrap-up codes, the VIP list and routing rules are maintained by your business team, with no code change and no release.
 
-**Can agents keep the handsets we already have?**
+**What do agents need on their desk?**
 
-Agents can use the WebRTC softphone in the browser, or SIP handsets connected to the platform. Specific handset and headset models are confirmed during evaluation.
+Agents answer and end calls in the browser, with nothing to install on the desktop. A SIP softphone and desk handsets are scoped in the implementation plan, and which handset and headset models are supported is confirmed during evaluation.
 
 **Where does ConnectX run, and what should we review?**
 

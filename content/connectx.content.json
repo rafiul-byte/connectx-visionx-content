@@ -108,11 +108,11 @@
       "summary": "Put the customer's context on the screen before the call connects.",
       "features": [
         "Screen pop before the ring",
-        "WebRTC softphone",
-        "SIP handsets",
+        "Answer and end a call in the browser",
         "Accounts and cards together",
-        "Hold",
-        "Wrap-up reason codes"
+        "Notes on the contact",
+        "Wrap-up reason codes",
+        "Hold, transfer and conference, Enterprise tier"
       ]
     },
     {
@@ -688,8 +688,8 @@
       "a": "In the admin console. Prompts, menu words, wrap-up codes, the VIP list and routing rules are maintained by your business team, with no code change and no release."
     },
     {
-      "q": "Can agents keep the handsets we already have?",
-      "a": "Agents can use the WebRTC softphone in the browser, or SIP handsets connected to the platform. Specific handset and headset models are confirmed during evaluation."
+      "q": "What do agents need on their desk?",
+      "a": "Agents answer and end calls in the browser, with nothing to install on the desktop. A SIP softphone and desk handsets are scoped in the implementation plan, and which handset and headset models are supported is confirmed during evaluation."
     },
     {
       "q": "Where does ConnectX run, and what should we review?",
