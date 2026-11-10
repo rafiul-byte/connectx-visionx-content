@@ -1,3 +1,6 @@
 node_modules/
 preview/dist/
 *.tsbuildinfo
+# The tender documents stay private. They are the evidence the content was
+# written from, they belong to the bank, and this repository is public.
+content/plan/
