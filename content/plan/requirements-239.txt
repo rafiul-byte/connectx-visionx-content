@@ -1,0 +1,942 @@
+Tender response · read 12 September 2026
+
+
+
+Every requirement Dutch-Bangla Bank asked us to
+answer
+239 numbered items in DBBL's CCaaS compliance matrix. We answered YES to 238 of them.
+This document lists all 239 and marks which ones we can deliver ourselves.
+
+Source: DBBL_CCaaS_RFP_Compliance_Matrix.xlsx, printed to PDF 16 March 2026, pages 6 to 23. Read straight from the
+file, not from a summary.
+
+
+
+
+  239                     12                       238                      1                        11
+  numbered                sections, A.01 to A.12   answered YES             answered NO              item numbers absent
+  requirements                                                              (Gartner)
+
+
+
+
+  The one NO is the biggest risk in the technical evaluation. Item A.01.01.03 asks for a Gartner Magic
+  Quadrant Leader. The Remarks box beside it is empty, so an evaluator reads a bare NO with no argument next to
+  it.
+  Only two rows in the whole matrix carry a remark, both about a WFM scoring module. Every other row is a bare
+  YES with nothing supporting it.
+
+
+
+Where we stand against it
+Marks follow the gap register of 5 September 2026, which is held to one rule: a line moves to built only when a test
+asserts it. The marks are our own reading, not the bank's.
+
+DELIVERED
+                 ITEMS WHAT IT MEANS FOR THIS BID
+BY
+
+ 1 ours          45      The AI layer: the chatbot in Bangla and English, authentication before data, handover with the
+                         full transcript, knowledge base, integration APIs. Weeks of work, no research.
+
+ 2 vendor        6       Speech analytics, transcription, barge-in, AI scoring. Retell or Verbex ship these. We configure
+                         and measure them, and Bangla accuracy has never been measured.
+
+ 3 platform      188     A carrier-grade contact centre product. We cannot build it, and a proposal implying we can is
+                         one we cannot deliver. Partner with a platform vendor and be the AI layer on it.
+
+Eleven item numbers are absent from the matrix: A.01.01.15, A.03.01.14, A.04.01.18, A.04.01.30, A.04.02.07,
+A.05.12, A.05.26, A.07.01.02, A.07.03.12, A.08.02.08, A.11.04. Worth confirming whether the bank dropped them or the
+rows were lost when the sheet was printed.
+                                                                                                                       28 items
+A.01 General platform
+
+Scale, redundancy, encryption, administration. The 500 agent and 1,000 IVR port line lives here, and so does the single
+NO.
+
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                            DELIVERED BY              PG
+
+A.01.01.01   Name of the proposed Solution                                                                3 platform         6
+
+A.01.01.02   Version of the proposed product                                                              3 platform         6
+
+A.01.01.03   Proposed CCaaS should be recognized as a Leader in the latest Gartner                   NO   3 platform         6
+             Magic Quadrant for CCaaS.
+
+A.01.01.04   Should provide true Omni channel support: voice, email, chat, web,                           3 platform         6
+             mobile app, WhatsApp, Facebook, social messaging, with a universal
+             routing engine.
+
+A.01.01.05   Should provide a unified, single view of the customer journey across all                     3 platform         6
+             interaction channels, including past interactions.
+
+A.01.01.06   Should scale to 500 concurrent agents and 1000 IVR ports without                             3 platform         6
+             architectural redesign.
+
+A.01.01.07   Should run on onsite architectures with virtualized components where                         3 platform         6
+             applicable.
+
+A.01.01.08   Should be 100% SIP and IP-based, with QoS parameters for jitter,                             3 platform         6
+             bandwidth, and latency.
+
+A.01.01.09   Should provide zero single point of failure (SPOF) at all layers: ACD, IVR,                  3 platform         6
+             CTI, routing, media, reporting.
+
+A.01.01.10   Customer calls should never drop during self-service, queuing, routing, or                   3 platform         6
+             ongoing agent conversations even during node/instance failures.
+
+A.01.01.11   Should provide active–active redundancy across data centers with 100%                        3 platform         6
+             capacity failover.
+
+A.01.01.12   Should support multi-tasking and blended Omni channel agents with                            3 platform         6
+             configurable interrupt hierarchy.
+
+A.01.01.13   Licensing should be concurrent independent of the number of shifts.                          3 platform         6
+
+A.01.01.14   Should support remote, WFH, and branch-based agents using secure web                         3 platform         6
+             access without SBCs or local telephony infrastructure.
+
+A.01.01.16   Should provide full administration through web-based HTTPS consoles                          3 platform         7
+             (Chrome, Edge, and Firefox).
+
+A.01.01.17   Should support post-call surveys via automated IVR transfer with                             3 platform         7
+             adjustable timing.
+
+A.01.01.18   Should allow hot configuration changes without downtime.                                     3 platform         7
+
+A.01.01.19   Should include a graphical drag-and-drop call flow designer with real-time                   3 platform         7
+             monitoring.
+
+A.01.01.20   Should support geographic redundancy, DR failover, and business                              3 platform         7
+             continuity.
+
+A.01.01.21   Configuration sync should be automatic across all DC/DR nodes.                               3 platform         7
+
+A.01.01.22   Active queue calls should be preserved during failover.                                      3 platform         7
+
+A.01.01.23   Should support SNMP, Syslog, and telemetry monitoring.                                       3 platform         7
+ITEM          REQUIREMENT, AS WRITTEN IN THE MATRIX                                                DELIVERED BY              PG
+
+A.01.01.24    System databases should be accessible via secure APIs for reporting/BI                           3 platform         7
+              integration.
+
+A.01.01.25    Should support IPv4 and IPv6 dual-stack endpoints.                                               3 platform         7
+
+A.01.01.26    Should provide system health dashboards and automated proactive                                  3 platform         7
+              alerts.
+
+A.01.01.27    Should support TLS 1.2/1.3, SRTP, AES-256 encryption, MFA- enabled                               3 platform         7
+              admin access, and end-to-end encryption.
+
+A.01.01.28    Should provide centralized log collection and trace management.                                  3 platform         7
+
+A.01.01.29    Should be compatible with all modern browsers.                                                   3 platform         7
+
+
+
+                                                                                                                             6 items
+A.02 SIP and telecom
+
+Encrypted SIP, multiple operators, codecs, and their existing Cisco 8800 handsets and Jabra headsets.
+
+ITEM          REQUIREMENT, AS WRITTEN IN THE MATRIX                                                DELIVERED BY              PG
+
+A.02.01.01    Should support SIP over TLS + SRTP for encrypted media and signaling.                            3 platform         7
+
+A.02.01.02    Should integrate with bank-approved SIP trunk providers                                          3 platform         7
+
+A.02.01.03    Should support dynamic call distribution across multiple telecom                                 3 platform         7
+              operators.
+
+A.02.01.04    Should support DTMF, codecs (G.711, G.729, Opus), and call admission                             3 platform         7
+              control.
+
+A.02.01.05    Should support Distributed Call Processing: Multiple nodes can be grouped                        3 platform         7
+              together to form a cluster or compatible technology to load-balance call
+              processing and provide redundancy.
+
+A.02.01.06    Existing Cisco IP Phone 8800 Series and Jabra Biz 2400Headset should be                          3 platform         7
+              supported/usable with Agent
+
+
+                                                                                                                            24 items
+A.03 ACD, CTI and routing
+
+Skill routing up to 50 skills per agent, queue position, overflow, VIP handling, return to the last agent by caller ID.
+
+ITEM          REQUIREMENT, AS WRITTEN IN THE MATRIX                                                DELIVERED BY              PG
+
+A.03.01.01    Should provide intelligent skill-based routing and priority queues.                              3 platform         8
+
+A.03.01.02    Must be fully redundant; failure of one ACD server has no impact to the                          3 platform         8
+              system and system must be able to continue operation without
+              interruption (transparent to end users). Recovery of data lost or changed
+              configuration of failed ACD/CTI server shall be automatic, or self-recovery.
+
+A.03.01.03    Proposed solution shall provide centralized routing configuration and                            3 platform         8
+              management for all contacts from all media proposed.
+
+A.03.01.04    Shall be able to provide estimated wait time and queue position for caller                       3 platform         8
+              before putting the caller into queue, and able to provide alternative option
+              to caller to leave a voicemail or callback if the current SLA
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                           DELIVERED BY         PG
+
+A.03.01.05   goal is not met. Proposed ACD system shall be able to look into any                     3 platform        8
+             particular skill group queue before putting caller into the queue, based on
+             the result, ACD may choose to put the caller into a different queue due to
+             SLA or
+
+A.03.01.06   other statistics. Proposed system shall be able to provide callers ability to           3 platform        8
+             perform IVR self-service while waiting in queue without losing queue
+             position.
+
+A.03.01.07   Call overflow : The system should support call overflow routing e.g. if                 3 platform        8
+             there is a queue in particular ACD group and another group is sitting idle,
+             system should be able to transfer the calls to another group based
+
+A.03.01.08   on the settings defined by the administrator. Should support load                       3 platform        8
+             balancing of calls among multiple ACDs.
+
+A.03.01.09   The system should support assigning multiple skill sets (up to 50) to an                3 platform        8
+             agent without degradation of the overall system capacity
+
+A.03.01.10   Routing should consider CLI, DNIS, IVR input, SLA, customer journey, and                3 platform        8
+             business rules.
+
+A.03.01.11   Routing strategies: longest idle, most idle, preferred agent, VIP routing,              3 platform        8
+             conditional routing etc.
+
+A.03.01.12   Should support 500+ agents with peak overflow, virtual seating, and                     3 platform        8
+             reserve agents.
+
+A.03.01.13   Should integrate AI for deciding when to push calls to virtual agents.                  3 platform        8
+
+A.03.01.15   Maintain & manage White listing for all/specific skill group(s) with a                  3 platform        9
+             schedule for start and end date
+
+A.03.01.16   Ability to implement ACD to route calls as per various business rule                    3 platform        9
+
+A.03.01.17   Assign pre-defined queue for call-back request (queue call back for OB/IVR              3 platform        9
+             call back) as per requirement of bank.
+
+A.03.01.18   The system should be intelligent to route a call to the previous agent who              3 platform        9
+             handled the call by ANI recognition, if the agent is available. These
+             options should be configurable for individual/specific queue
+
+A.03.01.19   and skill group level. Options should be there to enable/disable this                   3 platform        9
+             feature Call routing to agent should be based on various customizable
+             business rules e.g. least recent/longest idle time, longest idle time with
+             round robin etc.
+
+A.03.01.20   Skill sets should be assigned to individual agents for skill based routing.             3 platform        9
+             The system should allow routing the calls to the skill queue for best skilled
+             agent to answer the call.
+
+A.03.01.21   Skill Priority at agent level (priority of skills for each agent)                       3 platform        9
+
+A.03.01.22   Skill Priority at agent level for multimedia channels (priority of skills for           3 platform        9
+             each channel set to each agent)
+
+A.03.01.23   Flexible VIP customer management at queue/skill level                                   3 platform        9
+
+A.03.01.24   Ability to assign concurrent multimedia skill groups form different                     3 platform        9
+             channels e.g. voice, web and email to an agent
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                          DELIVERED BY            PG
+
+A.03.01.25   Customer enter digit (CED) must be saved against cli in cc, c                            3 platform         9
+             management primary database as business data which will be
+             search/retrievable in various reporting/recording system.
+
+
+                                                                                                                   42 items
+A.04 Agent and supervisor desktop
+
+One web desktop for every channel, screen pop, wrap-up codes, silent monitoring, whisper coaching and barge-in.
+
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                          DELIVERED BY            PG
+
+A.04.01.01   A web-based agent interface that lets agents handle calls, chats, emails,                3 platform         9
+             and social messages all in one place.
+
+A.04.01.02   System shall provide agents and supervisors with easy access to the                      3 platform         9
+             applications and information required customer service organization
+             through a customizable web-based interface. It offers your agents and
+             supervisors an intuitive, easy-to-use desktop design to help improve their
+             performance and
+
+A.04.01.03   Retaining "call context" as customers are transferred among agents -                     3 platform       10
+             even between different locations.
+
+A.04.01.04   CTI Server shall allow only one desktop session at a time for each agent. If             3 platform       10
+             an agent signs in to the agent desktop and then tries to sign in to a
+             second desktop session in another browser window or on another
+
+A.04.01.05   computer, on the same CTI server, the CTI server shall sign the agent out                3 platform       10
+             of the first desktop session. Desktop idle time shall be able to log agent
+             out automatically if the time expires.
+
+A.04.01.06   Shall use information from ACD and send as CTI data to Agent Desktop or                  3 platform       10
+             IVR, such as presenting current service level to agent desktop.
+
+A.04.01.07   Shall support multi-channel, and able to support Voice, Web, Email, Chat                 3 platform       10
+             requests and provide universal queue across all supported channels.
+
+A.04.01.08   When an agent transfers or conference a customer call to another agent                   3 platform       10
+             or supervisor, both voice and associated CTI data shall also be transferred
+             with the call.
+
+A.04.01.09   Each agent shall be able to save CTI data or input more information to                   3 platform       10
+             each call data for subsequent tracking and follow up. The information can
+             also be saved and displayed within historical reports.
+
+A.04.01.10   Helpful AI tools that provide real-time suggestions, coaching tips, and                      1 ours       10
+             productivity support while the agent is working.
+
+A.04.01.11   Instant screen-pop that shows customer details and past interactions as                  3 platform       10
+             soon as a call or message comes in.
+
+A.04.01.12   Supports both WebRTC soft phones and hard phones to ensure secure and                    3 platform       10
+             stable voice communication.
+
+A.04.01.13   Easy call-handling options like hold, transfer (with customer info),                     3 platform       10
+             conference, and end call.
+
+A.04.01.14   Clear status controls such as Ready, Not Ready, Hold, Transfer, and Work                 3 platform       10
+             Codes, with real-time timers and alerts when limits are reached.
+
+A.04.01.15   Training feature that lets new agents listen to live calls to learn how real             3 platform       10
+             interactions work through overhearing.
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                             DELIVERED BY         PG
+
+A.04.01.16   Real-time call details including caller ID, IVR inputs, white list status, last           3 platform    10
+             menu visited, and the overall context of the interaction.
+
+A.04.01.17   A simple performance dashboard where agents can see how they are                          3 platform    10
+             doing—total calls answered, average talk time, hold time, wrap-up time,
+             and more.
+
+A.04.01.19   Option for agents to take and save notes during or after each interaction                 3 platform    11
+             directly in the CTI, ensuring important details are captured for follow-up or
+             future reference.
+
+A.04.01.20   CTI should be capable of taking input from agent to make query on                         3 platform    11
+             defined fields and populate data in corresponding CTI interface for that
+             product.
+
+A.04.01.21   Ability to search, retrieve & populate customer static & their transactional              3 platform    11
+             information from various banking systems through CTI against major
+             searching criteria including but not limited to A/C, D/C, C/C,
+
+A.04.01.22   MB, AB. Must have a fully customized CTI for Agent with a fixed part for                  3 platform    11
+             displaying caller's static information, status, category etc. and dynamic
+             part is for displaying caller's transactional information as per the
+             requirement of the bank.
+
+A.04.01.23   In case of multiple linked account/card, options must be there to populate                3 platform    11
+             any account's/cards information in CTI by just clicking on the desired
+             account/card.
+
+A.04.01.24   The CTI screen should be populated separately for A/C, D/C, C/C, MB, AB                   3 platform    11
+             and any other services that bank offers to its customer. There should not
+             be any restriction on the number of fields for data population.
+
+A.04.01.25   Ability to display live caller's category, class etc. in CTI based on customer            3 platform    11
+             CLI, Category, CED etc.
+
+A.04.01.26   Ability to display a ticker/marquee text in CTI, which will be customizable               3 platform    11
+             by business users with proper access level
+
+A.04.01.27   Populate customer history including but not limited to: last 10 calls with                3 platform    11
+             date time, CLI/CED/Saved Criteria (ac, cc, dc, mb, ab etc.), duration, and
+             purpose (wrap-up code etc. While populating customer history the
+             primary matching criteria should be CLI, then customer's CED and then
+             searched criteria that were saved in
+
+A.04.01.28   In case of wrong/partial/invalid/no-input of customer identification CED by               3 platform    11
+             customer, the CTI must have the ability to save searching criteria (that
+             are used by CSE within a call to retrieve information in CTI)
+
+A.04.01.29   against the CLI in contact center contact management primary database                     3 platform    11
+             as Business Data. These saved Display agent's own statistics e.g. login
+             time, number of calls answered, abandoned calls, number of call hang-up,
+             ATT, AHT, ACWT, not-ready time, login duration etc.
+
+A.04.01.31   Selection of proper reason codes (which are customizable by the business                  3 platform    12
+             users) by agent at the time of making him/her not-ready. This should
+             reflect on agent/not-ready reporting.
+
+A.04.01.32   Selection of proper reason codes (which are customizable by the business                  3 platform    12
+             users) by agent at the time of logout. This should reflect on agent/not-
+             ready reporting.
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                          DELIVERED BY              PG
+
+A.04.01.33   Customized Wrap up code (categorized for each major services of                           3 platform        12
+             bank/IVR nodes) within/at the end of call.
+
+A.04.01.34   Final list of wrap up codes should be populated based on further generic                  3 platform        12
+             category e.g. complaint, request, query, feedback under each category of
+             services.
+
+A.04.01.35   The list of wrap-up codes should be alphabetically ordered and should be                  3 platform        12
+             alphabet sensitive e.g. if agent press "A" or "AN" then all codes starting
+             with "A" or "AN" should be displayed in the list.
+
+A.04.01.36   Wrap up list should be populated based on wrap-up category as per the                     3 platform        12
+             selection of IVR node by the customer. The category should be
+             changeable by the agent.
+
+A.04.02.01   Web-based omnichannel supervisor interface with real-time dashboards                      3 platform        12
+             and full visibility into agent activities.
+
+A.04.02.02   Silent monitoring, whisper coaching, and barge-in functions to support live               3 platform        12
+             agent assistance.
+
+A.04.02.03   Full call-control privileges matching agent capabilities: setting Ready/Not               3 platform        12
+             Ready, logging out agents, applying Work Codes, holding, transferring,
+             and receiving transferred calls with complete customer context.
+
+A.04.02.04   Real-time access to agent states and duration counters (Talking, Hold, Not                3 platform        12
+             Ready), along with color-coded alerts when thresholds are crossed.
+
+A.04.02.05   Built-in supervisor-to-agent chat and collaboration tools for coaching and                3 platform        12
+             fast issue resolution.
+
+A.04.02.06   Call Overhearing / Shadowing mode that lets supervisors listen to both                    3 platform        12
+             agent and customer audio for training and quality improvement.
+
+A.04.02.08   Ability to view details of transferred calls, including notes added by the                3 platform        13
+             original agent and other relevant customer context.
+
+A.04.02.09   Allows supervisors to send critical messages, alerts, or important updates                3 platform        13
+             directly to agents through the CTI interface, with control over message
+             visibility duration (e.g., pop-up for 10–30 seconds).
+
+
+                                                                                                                     34 items
+A.05 IVR and self-service
+
+VoiceXML, speech recognition, Bangla and English, TPIN authentication, core banking transactions, PCI-DSS masking.
+
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                          DELIVERED BY              PG
+
+A.05.01      VoiceXML-based IVR platform supporting SIP, REST, and SOAP integration                    3 platform        13
+             for seamless connectivity.
+
+A.05.02      Conversational AI, Automatic Speech Recognition (ASR), and Natural                   1 ours    partly       13
+             Language Understanding (NLU) engine for intelligent, contextual
+             interactions.
+
+A.05.03      Courtesy call back and virtual queuing capabilities to enhance customer                   3 platform        13
+             experience during high call volumes.
+
+A.05.04      Multilingual support including English and Bangla for inclusive customer              1 ours    built       13
+             service.
+ITEM      REQUIREMENT, AS WRITTEN IN THE MATRIX                                             DELIVERED BY             PG
+
+A.05.05   Secure TPIN/PIN authentication to ensure protected access to sensitive                 1 ours    partly     13
+          services.
+
+A.05.06   Integration with core banking systems for OTP verification, account                    1 ours    partly     13
+          balance inquiries, card services, fund transfers, bill payments, Green PIN
+          requests, and card activation through IVR.
+
+A.05.07   Should comply with PCI-DSS standards, with full masking of sensitive                       3 platform       13
+          input throughout all IVR interactions.
+
+A.05.08   Comprehensive IVR analytics and drop-off tracking to monitor call flows,                   3 platform       13
+          customer behavior, and process improvements.
+
+A.05.09   Customer interaction history should be captured across all channels and                1 ours    partly     13
+          accessible to agents for context- aware service; should also integrate
+          other self-service functions such as Green PIN requests and card
+
+A.05.10   activation directly through the IVR. Should support integration of white list              3 platform       13
+          and obnoxious caller (blacklist) lists for controlling access, prioritizing VIP
+          customers, and restricting unwanted calls.
+
+A.05.11   Barge and type ahead: Knowledgeable callers can save time by skipping                           2 vendor    13
+          through prompts and announcements they are already familiar with
+
+A.05.13   Shall be able to support Outbound IVR campaigns with both Preview and                      3 platform       14
+          Progressive Dialing.
+
+A.05.14   Courtesy Callback: Callers in queue can request a callback when an agent                   3 platform       14
+          is about to become available, reducing time spent on hold and lowering
+          caller frustration.
+
+A.05.15   Shall supports integration with SMS servers to send messages based on                            1 ours     14
+          caller self-service input, allowing callers to benefit from this additional
+          service channel.
+
+A.05.16   Provide API to integrate with business process and application to manage               1 ours    partly     14
+          voice prompts or greeting prompts for customers.
+
+A.05.17   The IVR design environment should support modular programming, such                    1 ours    partly     14
+          as support of sub flow, which enables the creation of reusable modules
+          across application.
+
+A.05.18   IVR will route the call to the appropriate ACD group e.g. Banking, Credit                  3 platform       14
+          Card, support etc.
+
+A.05.19   IVR should also capture customer’s dialing details and presenting them to                  3 platform       14
+          ACD or CTI directly to make routing of calls easier by identifying the calls
+          i.e. by identifying the customers from DNIS, CLI, ANI or
+
+A.05.20   internal calls etc. Ability to implement the IVR flow as per the requirement           1 ours    partly     14
+          of the bank, which might be changed time to time as per business
+          requirement
+
+A.05.21   Options for routing calls directly at agent desk in the event of                           3 platform       14
+          no/wrong/partial/invalid input by customer or disguised customer's
+          category. The number of wrong/invalid tries will be set by business team
+          as per the requirement of time to time.
+
+A.05.22   In case of no/wrong/partial/invalid CED by customer the agent must have                    3 platform       14
+          the ability to save Searching Parameters criteria value that are used in CTI
+          to retrieve customer data as Business Data in contact
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                          DELIVERED BY             PG
+
+A.05.23      management primary database. Ability to save call hang-up side in                         3 platform       14
+             contact center primary database.
+
+A.05.24      T-PIN integration with IVR for authentication of customer for various                         1 ours       14
+             services of Contact Center.
+
+A.05.25      A concrete and comprehensive T-PIN management and Reporting tool                              1 ours       14
+             should be provided as per Bank's requirement.
+
+A.05.27      In case of wrong/partial/invalid/no-input of customer identification CED by               3 platform       15
+             customer, the CTI must have the ability to save searching criteria (that
+             are used by CSE within a call to retrieve information in CTI)
+
+A.05.28      against the CLI in contact center contact management primary database                     3 platform       15
+             as Business Data. These saved Display agent's own statistics e.g. login
+             time, number of calls answered, abandoned calls, number of call hang-up,
+             ATT, AHT, ACWT, not-ready time, login duration etc.
+
+A.05.29      Cross product information should be populated in CTI based on current                     3 platform       15
+             product selection (e.g. debit card information population while customer
+             selected account information and vice versa etc.)
+
+A.05.30      Selection of proper reason codes (which are customizable by the business                  3 platform       15
+             users) by agent at the time of making him/her not-ready. This should
+             reflect on agent/not-ready reporting.
+
+A.05.31      Selection of proper reason codes (which are customizable by the business                  3 platform       15
+             users) by agent at the time of logout. This should reflect on agent/not-
+             ready reporting.
+
+A.05.32      Customized Wrap up code (categorized for each major services of                           3 platform       15
+             bank/IVR nodes) within/at the end of call.
+
+A.05.33      Final list of wrap up codes should be populated based on further generic                  3 platform       15
+             category e.g. complaint, request, query, feedback under each category of
+             services.
+
+A.05.34      The list of wrap-up codes should be alphabetically ordered and should be                  3 platform       15
+             alphabet sensitive e.g. if agent press "A" or "AN" then all codes starting
+             with "A" or "AN" should be displayed in the list.
+
+A.05.35      Wrap up list should be populated based on wrap-up category as per the                     3 platform       15
+             selection of IVR node by the customer. The category should be
+             changeable by the agent.
+
+A.05.36      One or multiple category of wrap-up code selection/saving options to be                   3 platform       15
+             there within/among the various category of the list.
+
+
+                                                                                                                    13 items
+A.06 Recording and quality
+
+100% recording of voice and screen, AES-256, three-year retention, AI scoring, sentiment and keyword spotting.
+
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                          DELIVERED BY             PG
+
+A.06.01      100% recording of all voice and multimedia interactions (voice, chat,                     3 platform       16
+             email, social) with full Omni channel context, including customer
+             interaction history.
+
+A.06.02      Encrypted recording storage using AES-256 or equivalent standards,                        3 platform       16
+             ensuring data security and regulatory compliance.
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                             DELIVERED BY             PG
+
+A.06.03      Screen recording synchronized with audio for desktop activity monitoring                     3 platform       16
+             and training purposes.
+
+A.06.04      AI-driven quality assurance scoring with speech analytics, sentiment                           2 vendor       16
+             analysis, and keyword spotting.
+
+A.06.05      Configurable scorecards to evaluate agent performance and adherence to                       3 platform       16
+             call scripts or compliance guidelines.
+
+A.06.06      Real-time quality monitoring with supervisor alerts on interactions flagged                  3 platform       16
+             for coaching, compliance, or escalation.
+
+A.06.07      Silent monitoring, whisper coaching, and barge-in capabilities integrated                    3 platform       16
+             with recordings for agent development.
+
+A.06.08      Call and interaction retention configurable per regulatory and business                      3 platform       16
+             requirements (minimum 3 years recommended).
+
+A.06.09      Secure, role-based access control for playback, download, and legal hold                     3 platform       16
+             management of recordings.
+
+A.06.10      Integration with CRM, WFM, and QA platforms for automated interaction                        3 platform       16
+             tagging and reporting.
+
+A.06.11      Automated transcription and indexing to facilitate search, retrieval, and                      2 vendor       16
+             audit compliance.
+
+A.06.12      Real-time and historical analytics dashboards for QA, compliance, and                        3 platform       16
+             operational improvement.
+
+A.06.13      Supervisors and QA designers should have access to design, customize,                        3 platform       16
+             and deploy evaluation forms and scorecards, including mapping to
+             specific KPIs, skills, and interaction types.
+
+
+                                                                                                                       44 items
+A.07 Reporting, WFM, dialler, wallboards
+
+The largest section: BI exports, forecasting and scheduling, predictive dialling with 100 campaigns, wallboards.
+
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                             DELIVERED BY             PG
+
+A.07.01.01   Real-time and historical reporting across all channels (voice (inbound and                   3 platform       16
+             outbound), chat, email, social), including detailed customer interaction
+             history.
+
+A.07.01.03   Drill-down capability from queue-level KPIs to individual agent interactions                 3 platform       17
+             with full Omni channel context.
+
+A.07.01.04   Export functionality to PDF, Excel, CSV, and scheduled email delivery of                     3 platform       17
+             reports.
+
+A.07.01.05   Pre-built standard reports for SLA compliance, agent productivity, call                      3 platform       17
+             volumes, and customer satisfaction.
+
+A.07.01.06   AI-assisted trend analysis and anomaly detection to flag deviations from                       2 vendor       17
+             expected service levels.
+
+A.07.01.07   KPI alerts configurable for thresholds such as longest wait time,                            3 platform       17
+             abandoned calls, and agent adherence.
+
+A.07.01.08   Integration with external BI tools (Power BI, Tableau) via secure APIs for                   3 platform       17
+             advanced analytics.
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                         DELIVERED BY         PG
+
+A.07.01.09   Visualizations for service-level adherence, occupancy, FCR, and CSAT                  3 platform    17
+             trends.
+
+A.07.01.10   Historical interaction playback for coaching, dispute resolution, and audit           3 platform    17
+             purposes.
+
+A.07.02.01   AI-powered forecasting for all channels based on historical patterns,                 3 platform    17
+             seasonality, and marketing campaigns.
+
+A.07.02.02   Multi-skill agent scheduling with automated shift assignment considering              3 platform    17
+             agent availability, preferences, and compliance rules.
+
+A.07.02.03   Real-time adherence monitoring with automatic alerts to supervisors for               3 platform    17
+             deviations.
+
+A.07.02.04   Self-service agent portal for shift swaps, leave requests, and personal               3 platform    17
+             schedule review.
+
+A.07.02.05   Shrinkage management, including planned leaves, training, and                         3 platform    17
+             unplanned absenteeism.
+
+A.07.02.06   Historical and real-time performance dashboards for teams, skill groups,              3 platform    17
+             and individual agents.
+
+A.07.02.07   Intraday reforecasting and dynamic rescheduling to handle unexpected                  3 platform    17
+             call spikes or agent unavailability.
+
+A.07.02.08   SLA adherence tracking with automatic adjustment of staffing plans to                 3 platform    17
+             meet peak demand.
+
+A.07.02.09   Integration with HR and payroll systems for attendance validation and                 3 platform    17
+             workforce cost calculation. Daily Performance Scoring Module (PSM)
+             Automation: The system must provide a dedicated module to
+             Remark in the matrix: Can be customized based on the requirement through
+             separate module.
+
+A.07.02.10   automaticallycalculate the agent Performance Scoring Module (PSM) daily.              3 platform    18
+             This module must allow administrators to define complex, weighted
+             scoring formulas utilizing various data points from the agent performance
+             report, including adherence metrics, and key efficiency indicators, and
+             output the final PSM score per agent.
+             Remark in the matrix: Can be customized based on the requirement through
+             separate module.
+
+A.07.02.11   Monthly KPI Generation & Attribution: The WFM system must provide a                   3 platform    18
+             facility to generate a comprehensive monthly report detailing Key
+             Performance Indicators (KPIs) of agents, and directly attribute these
+             results back to the associated forecasting and scheduling metrics (e.g.,
+             impact of adherence on Service Level attainment).
+             Remark in the matrix: Can be customized based on the requirement through
+             separate module.
+
+A.07.03.01   Predictive, and preview dialing modes with automatic pacing based on                  3 platform    18
+             agent availability and lead quality.
+
+A.07.03.02   Support full blended mode: Agents can handle inbound and outbound                     3 platform    18
+             tasks. System shall give inbound tasks with higher priority by default.
+
+A.07.03.03   Automatic lead prioritization based on CRM data, customer interaction                 3 platform    18
+             history, and call outcome scoring.
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                        DELIVERED BY         PG
+
+A.07.03.04   Integration with campaign management and CRM for seamless call                       3 platform    18
+             logging and follow-up task creation.
+
+A.07.03.05   Each campaign shall be able to use its own unique dialing number in case             3 platform    18
+             if customers call back, we could identify which campaign customers are
+             calling back for.
+
+A.07.03.06   Support both Agent and Agent-less (VRU) campaigns.                                   3 platform    18
+
+A.07.03.07   System shall be able to support up to 100 concurrent active campaigns.               3 platform    18
+
+A.07.03.08   Campaign management should support scheduling (with start & end date                 3 platform    18
+             setting, dialing hours, number of tries for each campaign etc.)
+
+A.07.03.09   Campaign manager should support individual reporting on each campaign                3 platform    18
+             as well as gross reporting
+
+A.07.03.10   Allow agents and supervisors to view the list of pending call backs                  3 platform    18
+
+A.07.03.11   Automatically initiate the call back and screen pop the appropriate                  3 platform    18
+             session data and customer data record on the agent’s screen (CTI)
+
+A.07.03.13   Monitor the size of the call back queue and make the data available to the           3 platform    19
+             real-time dashboard
+
+A.07.03.14   Must support auto & manual dialing with voice & screen recording of both             3 platform    19
+             the sessions
+
+A.07.03.15   AI-assisted best time to contact recommendations per customer segment.                 2 vendor    19
+
+A.07.04.01   Browser-based wallboards that can be viewed across multiple screens and              3 platform    19
+             locations.
+
+A.07.04.02   Shows real-time information such as agent status, queue levels, SLA                  3 platform    19
+             performance, and customer wait times.
+
+A.07.04.03   Supports customizable KPIs with color-coded alerts and clear visual                  3 platform    19
+             indicators when thresholds are crossed.
+
+A.07.04.04   Enables drill-down views from wallboard summaries into detailed agent                3 platform    19
+             interactions and omnichannel history.
+
+A.07.04.05   Provides historical trend views and comparison dashboards for different              3 platform    19
+             contact center sites.
+
+A.07.04.06   Allows flexible wallboard rotation and personalized views for supervisors,           3 platform    19
+             managers, and executives.
+
+A.07.04.07   Integrates with dashboards and mobile apps so performance can be                     3 platform    19
+             monitored remotely.
+
+A.07.04.08   Displays performance highlights such as top 5 and bottom 5 agents,                   3 platform    19
+             complete with names and photos (PIC), helping motivate teams and
+             improve visibility.
+
+A.07.04.09   Allows critical messages, updates, and day-to-day operational                        3 platform    19
+             announcements to be posted directly on the wallboard for immediate
+             attention.
+
+A.07.04.10   Provides role-based permissions so authorized team members (e.g.,                    3 platform    19
+             supervisors, QA leads, managers) can design, modify, and update
+             wallboard layouts and content as needed.
+                                                                                                                            15 items
+A.08 Digital channels and chatbot
+
+Email, webchat, WhatsApp, Messenger, Instagram, Twitter, plus a chatbot in Bangla and English with human handoff. The
+section closest to what we run.
+
+ITEM          REQUIREMENT, AS WRITTEN IN THE MATRIX                                              DELIVERED BY                PG
+
+A.08.01.01    Should support all major email platforms (IMAP/SMTP/Exchange) with                                   1 ours       20
+              automatic ticket creation and assignment to appropriate skill groups.
+
+A.08.01.02    Should provide webchat integration on web portals and mobile apps, with                    1 ours    partly       20
+              real-time agent assignment and chat history capture.
+
+A.08.01.03    Should support social messaging channels including WhatsApp, Facebook                                1 ours       20
+              Messenger, Instagram, Twitter, and other relevant platforms via a unified
+              interface.
+
+A.08.01.04    Should maintain complete customer interaction history across all channels                  1 ours    partly       20
+              (voice, email, chat, social) accessible to agents for context- aware
+              responses.
+
+A.08.01.05    Should support chatbots and AI-assisted responses with seamless                            1 ours    partly       20
+              escalation to live agents, preserving the full conversation history.
+
+A.08.01.06    Should allow agents to handle multiple simultaneous chats and emails,                      1 ours    partly       20
+              with priority queuing and intelligent workload distribution.
+
+A.08.02.01    Chatbot must support Natural Language Processing (NLP/NLU) for                              1 ours    built       20
+              conversational interactions in Bangla and English.
+
+A.08.02.02    Chatbot must be configurable to handle banking use cases such as                            1 ours    built       20
+              account inquiries, card services, service requests, FAQs, complaints, and
+              status tracking.
+
+A.08.02.03    Chatbot must integrate with core banking, CRM, IVR, and middleware                         1 ours    partly       20
+              systems via secure REST/SOAP APIs.
+
+A.08.02.04    Chatbot must support secure customer authentication using OTP, TPIN, or                     1 ours    built       20
+              equivalent mechanisms before providing sensitive information.
+
+A.08.02.05    Chatbot must support human handoff rules (confidence score, intent                          1 ours    built       20
+              failure, customer request, SLA breach) for escalation to live agents.
+
+A.08.02.06    Chatbot must transfer full conversation transcript, intent data, and                        1 ours    built       20
+              customer context to the agent upon escalation without data loss.
+
+A.08.02.07    Chatbot must support training, intent management, utterance updates,                        1 ours    built       20
+              and version control through an administrative console without service
+              downtime.
+
+A.08.02.09    Chatbot must comply with banking security standards, including data                        1 ours    partly       21
+              masking, encryption, audit logging, and regulatory compliance
+              requirements.
+
+A.08.02.10    Chatbot must support 24x7 availability, high availability, and automatic                             1 ours       21
+              failover as part of the overall contact center architecture.
+
+
+                                                                                                                            10 items
+A.09 Knowledge base
+
+One library for agents, AI search, approval workflow, usage analytics, live suggestions during a call.
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                         DELIVERED BY              PG
+
+A.09.01      A single, central knowledge library that agents and supervisors can                          1 ours        21
+             access from their desktops.
+
+A.09.02      Smart search with AI support that recommends information based on the              1 ours    partly        21
+             customer’s issue and the ongoing conversation.
+
+A.09.03      Supports different content types—articles, FAQs, guides, videos, and                         1 ours        21
+             internal SOPs.
+
+A.09.04      Role-based permissions so only the right people can access sensitive or                      1 ours        21
+             restricted information.
+
+A.09.05      A proper process for creating, reviewing, approving, publishing, and                         1 ours        21
+             tracking versions of content.
+
+A.09.06      Analytics to understand how often agents use the content and to identify                     1 ours        21
+             where information is missing or outdated.
+
+A.09.07      Works seamlessly with coaching, QA, and workforce management tools so                        1 ours        21
+             training needs can be addressed quickly.
+
+A.09.08      Provides real-time suggestions during calls or chats to help agents resolve        1 ours    partly        21
+             issues on the first attempt.
+
+A.09.09      Allows agents to share feedback or suggest updates so the knowledge                          1 ours        21
+             base stays accurate and useful.
+
+A.09.10      Allows authorized team members to update or add information in the KM                        1 ours        21
+             portal instantly, with changes becoming visible to everyone in real time.
+
+
+                                                                                                                    12 items
+A.10 Integration and compliance
+
+REST and SOAP, CRM, core banking, PCI-DSS, GDPR, audit logging, retention policy.
+
+ITEM         REQUIREMENT, AS WRITTEN IN THE MATRIX                                         DELIVERED BY              PG
+
+A.10.01.01   Open REST and SOAP APIs for agent desktop, CRM, ticketing, WFM, and                1 ours    partly        22
+             knowledge management integration.
+
+A.10.01.02   Bi-directional CRM integration for real-time interaction context, activity                   1 ours        22
+             logging, and task creation.
+
+A.10.01.03   Core banking/middleware integration for transactional services,                    1 ours    partly        22
+             authentication, and personalization.
+
+A.10.01.04   Integration with recording, QA, and speech analytics systems.                          3 platform          22
+
+A.10.01.05   Webhooks, event streaming, and SFTP support for batch and real- time               1 ours    partly        22
+             data exchange.
+
+A.10.01.06   Integration with AI engines for sentiment analysis, next-best action               1 ours    partly        22
+             suggestions, and chatbots.
+
+A.10.02.01   PCI-DSS compliant for secure handling of cardholder data.                              3 platform          22
+
+A.10.02.02   GDPR, CCPA, and local data protection law compliance with customer                          2 vendor       22
+             consent management.
+
+A.10.02.03   TLS 1.3, SRTP, AES-256, and MFA for secure access and communications.                  3 platform          22
+
+A.10.02.04   Role-based access control with audit logging and change tracking.                   1 ours    built        22
+ITEM          REQUIREMENT, AS WRITTEN IN THE MATRIX                                                  DELIVERED BY             PG
+
+A.10.02.05    Regulatory reporting for banking audits, financial transactions, and                               3 platform      22
+              customer complaints.
+
+A.10.02.06    Secure data retention policies configurable by channel, interaction type,                          3 platform      22
+              and compliance rules.
+
+
+                                                                                                                              6 items
+A.11 Licensing, training, support
+
+Licences, certified implementation, onsite training, a 3-year OEM warranty and 7 optional AMC years.
+
+ITEM          REQUIREMENT, AS WRITTEN IN THE MATRIX                                                  DELIVERED BY             PG
+
+A.11.01       Provision all licenses for agents, supervisors, WFM, wallboards, and                               3 platform      22
+              reporting modules.
+
+A.11.02       Implementation by certified partners with proven experience in banking                             3 platform      22
+              CCaaS deployments.
+
+A.11.03       Onsite comprehensive training for agents, supervisors, administrators,                             3 platform      22
+              and management personnel.
+
+A.11.05       3-year OEM-backed warranty and post-go-live support with SLA- based                                3 platform      23
+              resolution times.
+
+A.11.06       Optional AMC for the next 7 years covering updates, patches, and feature                           3 platform      23
+              upgrades.
+
+A.11.07       Support portal with ticketing, chat, and escalation paths.                                         3 platform      23
+
+
+
+                                                                                                                              5 items
+A.12 Administration and security
+
+Role-based administration, audit trail, data masking, SSO and multi-factor access.
+
+ITEM          REQUIREMENT, AS WRITTEN IN THE MATRIX                                                  DELIVERED BY             PG
+
+A.12.01       Provides role-based access so administrators can manage all system                                 3 platform      23
+              modules—reports, dashboards, wallboards, call recordings, Knowledge
+              portal and QA tools—based on their responsibilities.
+
+A.12.02       Keeps a complete audit trail of all changes made by administrators and all                     1 ours   built      23
+              major system actions for accountability and security.
+
+A.12.03       Ensures sensitive data stays protected through data masking, encryption,                       1 ours   built      23
+              and strong privacy controls.
+
+A.12.04       Allows access rules to be customized for specific teams, locations, or                             3 platform      23
+              agent groups.
+
+A.12.05       Supports self-service password reset, multi-factor authentication (MFA),                           3 platform      23
+              and single sign-on (SSO) for secure and convenient access.
+
+
+
+Item text is taken from the source PDF by word position, column by column. In a few rows the bank's own sheet runs one requirement
+into the next; that is kept as it appears rather than tidied, so nothing is invented. Page numbers refer to the source PDF.
+

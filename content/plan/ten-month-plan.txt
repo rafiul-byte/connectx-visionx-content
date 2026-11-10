@@ -1,0 +1,158 @@
+Plan · 12 September 2026 · SmartData Technologies
+
+Ten months to all 239 DBBL requirements
+The same 396 person-days, laid on a ten month calendar. Our simulated bank stays in place
+of the bank's real core banking system.
+
+
+
+
+  396                            198                       3                          100%
+  person-days of work left       working days one person   people needed, with real   how loaded 2 people
+                                 has in ten months         slack                      would be
+
+
+
+
+  Ten months is enough, with three people. One person has 10 × 21 days minus about 12 public
+  holidays, so 198 working days. Three people give 594 days against 396 of work: 67% loaded, which
+  leaves room for the sick days, the rework and the two weeks a bank's review always takes.
+
+  Two people do not fit. Two give 396 days against 396 needed, which is 100% loaded. That is every
+  day booked, no illness, no rework, nothing late. Any plan at that number slips in month three.
+
+  If it has to be two people, 100 days of scope come out. The cut list is on the last page, and each
+  line is one a bank will ask about.
+
+
+
+What each person does, month by month
+WHEN              WORK                                                                                      DAYS
+
+
+A · Voice and telephony                                                                                     150
+
+Month 1           Telephony: FreeSWITCH, SIP over TLS, codecs, DTMF                                           25
+
+Month 2-3         IVR platform, barge and type ahead, TPIN, whitelist                                         25
+
+Month 4           Call and screen recording, encryption, retention                                            20
+
+Month 5           Quality scoring, sentiment, keyword spotting                                                20
+
+Month 6           Monitoring, logging, load test to 500 agents                                                18
+
+Month 7-8         High availability, two sites, failover                                                      25
+
+Month 9-10        Hardening and rehearsal                                                                     17
+
+B · Agent tools                                                                                             143
+
+Month 1           Bot on ten more channels: WhatsApp, Messenger, rest                                         20
+
+Month 2           Agent knowledge base                                                                         7
+
+Month 2-3         Routing, skills, queues, callback                                                           22
+
+Month 4-5         Agent desktop and CTI, wrap-up and reason codes                                             30
+
+Month 6           Supervisor tools: monitor, whisper, barge-in                                                12
+
+Month 7           Wallboards and the drag and drop flow designer                                              18
+
+Month 8           Integration APIs, mock CRM, support portal                                                  17
+WHEN              WORK                                                                                       DAYS
+
+Month 9-10        Hardening and rehearsal                                                                       17
+
+C · Data and operations                                                                                       123
+
+Month 1           Measure Bangla speech accuracy, the overdue number                                                5
+
+Month 1-2         Reporting, dashboards, BI export, KPI alerts                                                  15
+
+Month 2           Security: TLS 1.3, SRTP, MFA, SSO, retention                                                  15
+
+Month 3-5         Workforce management: forecasting to the PSM score                                            30
+
+Month 6-7         Outbound dialler and 100 campaigns                                                            25
+
+Month 8           Spare capacity, held for the overrun that will happen                                         15
+
+Month 9-10        Hardening, load rehearsal, documentation                                                      18
+
+
+
+What is demonstrable at each point
+POINT             WHAT THE BANK CAN BE SHOWN
+
+End of month 1    A Bangla accuracy number exists. The bot answers on WhatsApp and Messenger. A call
+                  runs through our own telephony.
+
+End of month 3    Full IVR self-service with TPIN, skills routing with queues and callback, reporting live. First
+                  full demonstration.
+
+End of month 5    Agent desktop with screen pop and wrap-up codes. Recording running. Workforce
+                  management forecasting and scheduling.
+
+End of month 7    Supervisor monitoring, quality scoring, outbound dialler, wallboards. Every section of the
+                  matrix has something working.
+
+End of month 8    Feature complete. Every buildable item in the matrix answered by working software.
+
+End of month 10   Hardened, load tested, rehearsed. Two weeks of spare time inside this, on purpose.
+
+
+
+Two things ten months does not buy
+
+The nine items that are not build tasks. A Gartner Magic Quadrant listing, PCI-DSS and GDPR
+certification, concurrent licensing, certified implementation partners, onsite training, a 3-year OEM
+warranty and a 7-year AMC. These need a commercial decision and an auditor, and they run in
+parallel from month one, not at the end. PCI-DSS assessment alone typically takes three to six
+months of calendar time with an external assessor, so it starts in month two or it is late.
+
+Carrier-grade capacity. The plan proves 500 agents and 1,000 ports on our own stack with a
+load harness. Proving it on the bank's hardware, under their network, signed off by their own
+team, is their environment and their timeline.
+
+
+If it must be two people, this comes out
+DROPPED                                DAYS WHAT THE BANK LOSES
+
+Workforce management                      30 Forecasting, scheduling, adherence, the daily scoring module.
+                                             Eleven matrix items.
+
+Outbound dialler and                      25 Predictive and preview dialling, 100 campaigns. Fourteen matrix
+campaigns                                    items.
+
+Quality scoring and                       20 Scorecards, sentiment, keyword spotting. Recording itself stays.
+analytics
+
+Drag and drop flow                        10 Flows stay editable as files, not by mouse.
+designer
+
+Load test to 500 agents                   10 The scale claim goes back to being a claim.
+
+Support portal                             5 Support runs on email and the ticket system we already have.
+
+Total removed                           100 Leaves 296 days, which two people can hold at 75% loaded.
+
+
+
+The three rules that keep this plan honest
+
+1. A line is done when a test asserts it, not when it demonstrates. That is why 52 of the 396
+days are testing and hardening, and why they are not at the end only.
+
+2. Month one measures Bangla accuracy. Both proposals lead with a number nobody has
+measured. Five days, and it decides what can be promised for the other nine months.
+
+3. The mock bank stays until a bank signs. Every integration is written against a system we
+control, so nothing in this plan waits on the bank's core banking team. When they sign, the mock
+is replaced and nothing above the adapter changes.
+
+
+Day figures are estimates from the requirement matrix of 16 March 2026 and the state of this repository on 12 September 2026,
+where 17 items are already asserted by tests and 28 more are partly built. Estimates are not measurements.
+

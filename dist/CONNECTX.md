@@ -23,13 +23,13 @@ The AI agent sits in the core of the platform rather than in front of it. It ans
 ## What ConnectX brings to your team
 
 - **AI Virtual Agent.** Answer supported voice and chat questions from approved sources, under your identity policy. *(Bangla and English, Approved-source answers, Five identity tiers, Context handoff, Conversation memory, Decision log per turn)*
-- **IVR & Self-Service.** Run supported self-service operations from the phone menu, connected to your systems. *(Menu words edited in the console, Masked sensitive entry, Connected account operations, Handover with full context, No release needed, Drag-and-drop flow designer, scoped in the implementation plan)*
+- **IVR & Self-Service.** Run supported self-service operations from the phone menu, connected to your systems. *(Menu words edited in the console, Masked sensitive entry, Connected account operations, Handover with full context, No release needed, Drag-and-drop flow designer)*
 - **ACD & Routing.** Send each contact to the right agent and keep the promise you made the caller. *(Skill-based routing, Priority and VIP lane, Wait time and queue position, Return to the last agent, Callbacks, Queue overflow to a named desk, Service level by band)*
-- **Agent Desktop & CTI.** Put the customer's context on the screen before the call connects. *(Screen pop before the ring, Answer and end a call in the browser, Accounts and cards together, Notes on the contact, Wrap-up reason codes, Hold, transfer and conference, Enterprise tier)*
-- **Supervisor & Quality.** Watch the floor, trace any conversation and set what each agent may do. *(Live floor and queue view, Trace one conversation end to end, Roles and permissions, Skills and the VIP list, Wrap-up reasons and categories, Call recording and quality scoring, Enterprise tier)*
-- **Omnichannel & Knowledge.** Keep one queue and one customer history across every channel. *(Voice and web chat, WhatsApp, Messenger, email and SMS, One universal queue, Knowledge base with named sources, One customer history, CRM synchronization, scoped in the implementation plan)*
-- **Reporting & Wallboards.** Move from a number on the board to the conversation behind it. *(Browser wallboard, Service level by band, Drill down to the conversation, Handover reasons, Intents by volume, Agent time saved, Power BI connection, scoped in the implementation plan)*
-- **Workforce & Dialer.** Workforce planning and outbound campaigns, delivered with the Enterprise tier and scheduled in the implementation plan. *(Demand forecasting, Enterprise tier, Roster preparation, Enterprise tier, Adherence monitoring, Enterprise tier, Predictive, progressive and preview dialing, Enterprise tier, Inbound keeps priority)*
+- **Agent Desktop & CTI.** Put the customer's context on the screen before the call connects. *(Screen pop before the ring, WebRTC softphone, Hold, transfer and conference, Accounts and cards together, Notes on the contact, Wrap-up reason codes)*
+- **Supervisor & Quality.** Monitor a live call, review the recording beside it and set what each agent may do. *(Listen, whisper and barge in, Voice and screen recording, Role-based playback, AI quality scoring, Trace one conversation end to end, Roles, skills and the VIP list)*
+- **Omnichannel & Knowledge.** Keep one queue and one customer history across every channel. *(Voice and web chat, WhatsApp, Messenger, email and SMS, One universal queue, Knowledge base with named sources, One customer history, CRM synchronization)*
+- **Reporting & Wallboards.** Move from a number on the board to the conversation behind it. *(Browser wallboard, Service level by band, Drill down to the conversation, Handover reasons, Intents by volume, Agent time saved, Power BI connection)*
+- **Workforce & Dialer.** Plan the roster from what is forecast, and run outbound campaigns beside inbound work. *(Demand forecasting, Roster preparation, Adherence monitoring, Predictive, progressive and preview dialing, Inbound keeps priority)*
 - **Platform & Security.** Run the platform on infrastructure you manage, with encrypted telephony. *(SIP over TLS, Customer-managed deployment, Role-based access, Sensitive input masking, Append-only decision log, Backup and restore, SNMP traps and Syslog)*
 
 ## AI inside
@@ -40,7 +40,7 @@ AI supports voice conversations, knowledge-based answers, transcription, quality
 - Answers limited to approved sources and connected systems
 - Identity-tier check before anything is disclosed
 - Live transcription of the conversation
-- Intent and handover reason captured on every turn
+- AI quality scoring across recorded calls
 - Append-only decision log behind every answer
 
 ## Inside ConnectX: the product tour
@@ -107,11 +107,11 @@ SIP trunk providers, WebRTC, Compatible Cisco IP handsets, CRM, Core banking and
 
 ### Enterprise
 
-*Regulated operations. Recording, workforce and multi-site are scoped in the implementation plan*
+*Regulated operations with resilience, recording and workforce requirements*
 
 - Everything in Professional
-- Call recording and quality scoring, Enterprise tier
-- Workforce management and dialer, Enterprise tier
+- Call recording and quality scoring
+- Workforce management and dialer
 - Multi-site deployment
 - Administrative MFA and role-based access
 - Concurrent-agent licensing
@@ -142,15 +142,15 @@ In the admin console. Prompts, menu words, wrap-up codes, the VIP list and routi
 
 **What do agents need on their desk?**
 
-Agents answer and end calls in the browser, with nothing to install on the desktop. A SIP softphone and desk handsets are scoped in the implementation plan, and which handset and headset models are supported is confirmed during evaluation.
+A browser. Agents talk through the WebRTC softphone in the browser, or through compatible IP handsets if the bank prefers to keep the ones it has. Which handset and headset models are supported is confirmed during evaluation.
 
 **Where does ConnectX run, and what should we review?**
 
 ConnectX is a customer-managed deployment on infrastructure you control. Review telephony and trunk requirements, identity policies, integration specifications, retention, training and support terms during evaluation. No hosting region or certification is implied.
 
-**What is in the first release, and what comes later?**
+**How long does a full deployment take?**
 
-The AI agent, IVR self-service, ACD and skill routing, the agent desktop, the supervisor console, the knowledge base, the wallboard and the value board are delivered first, with SNMP traps and Syslog for your monitoring team. Call recording and quality scoring, workforce management and the outbound dialer, the drag-and-drop flow designer, call transfer and conference, and the Power BI and CRM connections are scoped in the implementation plan and delivered with the Enterprise tier. The split is agreed in writing during evaluation.
+A complete deployment of all nine modules is planned as ten months with a team of three, against a requirement matrix of 239 numbered lines. The bank sees working software long before the end: self-service with identity and skills routing with queues and callback by month three, the agent desktop with screen pop and recording by month five, supervisor monitoring, quality scoring, the outbound dialer and wallboards by month seven, and every buildable line in the matrix answered by month eight. The last two months are hardening, load rehearsal and documentation.
 
 ## Plan your deployment
 

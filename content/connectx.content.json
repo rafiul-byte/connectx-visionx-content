@@ -87,7 +87,7 @@
         "Connected account operations",
         "Handover with full context",
         "No release needed",
-        "Drag-and-drop flow designer, scoped in the implementation plan"
+        "Drag-and-drop flow designer"
       ]
     },
     {
@@ -108,23 +108,23 @@
       "summary": "Put the customer's context on the screen before the call connects.",
       "features": [
         "Screen pop before the ring",
-        "Answer and end a call in the browser",
+        "WebRTC softphone",
+        "Hold, transfer and conference",
         "Accounts and cards together",
         "Notes on the contact",
-        "Wrap-up reason codes",
-        "Hold, transfer and conference, Enterprise tier"
+        "Wrap-up reason codes"
       ]
     },
     {
       "name": "Supervisor & Quality",
-      "summary": "Watch the floor, trace any conversation and set what each agent may do.",
+      "summary": "Monitor a live call, review the recording beside it and set what each agent may do.",
       "features": [
-        "Live floor and queue view",
+        "Listen, whisper and barge in",
+        "Voice and screen recording",
+        "Role-based playback",
+        "AI quality scoring",
         "Trace one conversation end to end",
-        "Roles and permissions",
-        "Skills and the VIP list",
-        "Wrap-up reasons and categories",
-        "Call recording and quality scoring, Enterprise tier"
+        "Roles, skills and the VIP list"
       ]
     },
     {
@@ -136,7 +136,7 @@
         "One universal queue",
         "Knowledge base with named sources",
         "One customer history",
-        "CRM synchronization, scoped in the implementation plan"
+        "CRM synchronization"
       ]
     },
     {
@@ -149,17 +149,17 @@
         "Handover reasons",
         "Intents by volume",
         "Agent time saved",
-        "Power BI connection, scoped in the implementation plan"
+        "Power BI connection"
       ]
     },
     {
       "name": "Workforce & Dialer",
-      "summary": "Workforce planning and outbound campaigns, delivered with the Enterprise tier and scheduled in the implementation plan.",
+      "summary": "Plan the roster from what is forecast, and run outbound campaigns beside inbound work.",
       "features": [
-        "Demand forecasting, Enterprise tier",
-        "Roster preparation, Enterprise tier",
-        "Adherence monitoring, Enterprise tier",
-        "Predictive, progressive and preview dialing, Enterprise tier",
+        "Demand forecasting",
+        "Roster preparation",
+        "Adherence monitoring",
+        "Predictive, progressive and preview dialing",
         "Inbound keeps priority"
       ]
     },
@@ -183,7 +183,7 @@
     "Answers limited to approved sources and connected systems",
     "Identity-tier check before anything is disclosed",
     "Live transcription of the conversation",
-    "Intent and handover reason captured on every turn",
+    "AI quality scoring across recorded calls",
     "Append-only decision log behind every answer"
   ],
   "tourSteps": [
@@ -655,11 +655,11 @@
     },
     {
       "name": "Enterprise",
-      "bestFor": "Regulated operations. Recording, workforce and multi-site are scoped in the implementation plan",
+      "bestFor": "Regulated operations with resilience, recording and workforce requirements",
       "highlights": [
         "Everything in Professional",
-        "Call recording and quality scoring, Enterprise tier",
-        "Workforce management and dialer, Enterprise tier",
+        "Call recording and quality scoring",
+        "Workforce management and dialer",
         "Multi-site deployment",
         "Administrative MFA and role-based access",
         "Concurrent-agent licensing"
@@ -689,15 +689,15 @@
     },
     {
       "q": "What do agents need on their desk?",
-      "a": "Agents answer and end calls in the browser, with nothing to install on the desktop. A SIP softphone and desk handsets are scoped in the implementation plan, and which handset and headset models are supported is confirmed during evaluation."
+      "a": "A browser. Agents talk through the WebRTC softphone in the browser, or through compatible IP handsets if the bank prefers to keep the ones it has. Which handset and headset models are supported is confirmed during evaluation."
     },
     {
       "q": "Where does ConnectX run, and what should we review?",
       "a": "ConnectX is a customer-managed deployment on infrastructure you control. Review telephony and trunk requirements, identity policies, integration specifications, retention, training and support terms during evaluation. No hosting region or certification is implied."
     },
     {
-      "q": "What is in the first release, and what comes later?",
-      "a": "The AI agent, IVR self-service, ACD and skill routing, the agent desktop, the supervisor console, the knowledge base, the wallboard and the value board are delivered first, with SNMP traps and Syslog for your monitoring team. Call recording and quality scoring, workforce management and the outbound dialer, the drag-and-drop flow designer, call transfer and conference, and the Power BI and CRM connections are scoped in the implementation plan and delivered with the Enterprise tier. The split is agreed in writing during evaluation."
+      "q": "How long does a full deployment take?",
+      "a": "A complete deployment of all nine modules is planned as ten months with a team of three, against a requirement matrix of 239 numbered lines. The bank sees working software long before the end: self-service with identity and skills routing with queues and callback by month three, the agent desktop with screen pop and recording by month five, supervisor monitoring, quality scoring, the outbound dialer and wallboards by month seven, and every buildable line in the matrix answered by month eight. The last two months are hardening, load rehearsal and documentation."
     }
   ],
   "stats": [
