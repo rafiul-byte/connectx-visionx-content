@@ -1,0 +1,652 @@
+{
+  "tagline": "From incoming request to documented resolution.",
+  "overview": "Resuelto is an AI-assisted IT service desk and customer support platform. Requests arrive from the customer portal, email or WhatsApp, are triaged and routed by AI, tracked against SLAs, escalated when needed and closed with root-cause documentation that feeds a knowledge base.",
+  "overviewParagraphs": [
+    "Resuelto is an AI-assisted IT service desk and customer support platform. Requests arrive from the customer portal, email or WhatsApp, are triaged and routed by AI, tracked against SLAs, escalated when needed and closed with root-cause documentation that feeds a knowledge base."
+  ],
+  "description": "AI-assisted support with portal, email and WhatsApp intake, ticket triage, SLAs, escalation, root-cause documentation and knowledge articles.",
+  "modules": [
+    {
+      "name": "Omnichannel Intake",
+      "summary": "Keep incoming requests attached to trackable tickets.",
+      "features": [
+        "Portal",
+        "Email",
+        "WhatsApp",
+        "Web widget",
+        "API"
+      ]
+    },
+    {
+      "name": "AI Triage & Routing",
+      "summary": "Help agents review and route incoming work.",
+      "features": [
+        "Categorisation",
+        "Priority",
+        "Assignment",
+        "Duplicate detection"
+      ]
+    },
+    {
+      "name": "Ticket Workspace",
+      "summary": "Keep ownership, context and collaboration in view.",
+      "features": [
+        "SLAs",
+        "Internal notes",
+        "Collaboration",
+        "Macros"
+      ]
+    },
+    {
+      "name": "Escalation & SLA Management",
+      "summary": "Act on response and resolution targets at risk.",
+      "features": [
+        "Response and resolution targets",
+        "Business-hour settings",
+        "Escalation paths"
+      ]
+    },
+    {
+      "name": "Customer Portal",
+      "summary": "Give customers a clear place to raise and track requests.",
+      "features": [
+        "Submit",
+        "Track",
+        "Knowledge base",
+        "Multi-language interface options and regional business-hour settings"
+      ]
+    },
+    {
+      "name": "Problem & Root-Cause",
+      "summary": "Document outcomes and linked recurring issues.",
+      "features": [
+        "RCA reports",
+        "Linked incidents"
+      ]
+    },
+    {
+      "name": "Knowledge Base",
+      "summary": "Turn resolved tickets into reviewed help content.",
+      "features": [
+        "AI-drafted articles from resolved tickets",
+        "Knowledge-based self-service and portal reply assistance"
+      ]
+    },
+    {
+      "name": "Reports",
+      "summary": "Review customer outcomes and team performance.",
+      "features": [
+        "SLA compliance",
+        "CSAT",
+        "Agent performance"
+      ]
+    }
+  ],
+  "aiCapabilities": [
+    "Auto-categorisation & priority",
+    "Suggested replies",
+    "Ticket summaries",
+    "Root-cause drafting",
+    "Knowledge-article generation",
+    "Sentiment detection"
+  ],
+  "aiEdge": "AI assists auto-categorisation & priority. Drafts and recommendations remain subject to human review.",
+  "security": [
+    "Customer isolation",
+    "Role-based access",
+    "Audit trail",
+    "Encrypted attachments",
+    "SLA evidence"
+  ],
+  "integrations": [
+    "WhatsApp",
+    "Email",
+    "OmniReach",
+    "Fieldora",
+    "Webhooks/API",
+    "Monitoring alerts"
+  ],
+  "useCases": [
+    {
+      "industry": "MSPs & IT service providers",
+      "scenario": "Manage multiple client queues with service levels and root-cause documentation."
+    },
+    {
+      "industry": "Internal IT desks",
+      "scenario": "Route internal requests, track SLAs and build reusable knowledge articles."
+    },
+    {
+      "industry": "SaaS support",
+      "scenario": "Coordinate customer requests across portal, email and WhatsApp."
+    },
+    {
+      "industry": "Distributors’ after-sales",
+      "scenario": "Link after-sales requests to escalations, documented resolutions and customer status updates."
+    }
+  ],
+  "audience": [
+    "MSPs & IT service providers",
+    "Internal IT desks",
+    "SaaS support",
+    "Distributors’ after-sales"
+  ],
+  "plans": [
+    {
+      "name": "Team",
+      "bestFor": "Support teams establishing a service desk",
+      "highlights": [
+        "Email & web ticket intake",
+        "Ticket workspace",
+        "Customer portal",
+        "Knowledge base",
+        "Standard reports"
+      ]
+    },
+    {
+      "name": "Business",
+      "bestFor": "Teams managing broader SLA workflows",
+      "highlights": [
+        "Omnichannel intake incl. WhatsApp",
+        "AI triage & routing",
+        "Escalation & SLA management",
+        "Problem & root-cause",
+        "Custom reports"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "bestFor": "Organizations with complex client and integration needs",
+      "highlights": [
+        "Multiple customers/clients (MSP)",
+        "Portal embedded in your own website",
+        "Integrations & API",
+        "Dedicated support"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I pay VisionX for AI?",
+      "a": "No. You connect your own Claude or Gemini API key in the app's Settings, and your AI provider bills you directly for usage. VisionX does not sell AI credits."
+    },
+    {
+      "q": "Can WhatsApp messages become tickets?",
+      "a": "Yes. Connect the supported WhatsApp intake to create trackable tickets with the conversation attached."
+    },
+    {
+      "q": "Can we configure SLAs?",
+      "a": "Yes. Configure response and resolution targets, business hours and escalation paths."
+    },
+    {
+      "q": "Can we support multiple customers or clients?",
+      "a": "Yes. Customer isolation and role-based access support distinct customer records and responsibilities."
+    },
+    {
+      "q": "How is the knowledge base built?",
+      "a": "AI drafts articles from resolved tickets and root-cause documentation. Agents review articles before publication; customers can access approved help content in the portal."
+    },
+    {
+      "q": "Which integrations are available?",
+      "a": "WhatsApp, email, OmniReach, Fieldora, webhooks/API and monitoring alerts. Confirm connection requirements during onboarding."
+    },
+    {
+      "q": "Which reports can we review?",
+      "a": "Review SLA compliance, CSAT and agent performance, with evidence of response, escalation and resolution activity."
+    }
+  ],
+  "related": [
+    "omnireach",
+    "fieldora",
+    "payhub"
+  ],
+  "stats": [
+    "Omnichannel intake",
+    "SLA tracking",
+    "Root-cause knowledge"
+  ],
+  "problems": [
+    {
+      "pain": "Requests scattered across channels",
+      "outcome": "Portal, email and WhatsApp intake in one ticket workflow."
+    },
+    {
+      "pain": "Manual triage slows ownership",
+      "outcome": "AI categorisation, priority and routing for agent review."
+    },
+    {
+      "pain": "Missed service commitments",
+      "outcome": "SLA timers and escalation paths."
+    },
+    {
+      "pain": "Recurring issues lack reusable answers",
+      "outcome": "Root-cause records feed reviewed knowledge articles."
+    }
+  ],
+  "walkthrough": [
+    {
+      "title": "Configure teams, categories & SLAs",
+      "detail": "Define ownership, request categories, business hours, response and resolution targets."
+    },
+    {
+      "title": "Connect email and WhatsApp",
+      "detail": "Connect intake channels and verify messages arrive as tickets."
+    },
+    {
+      "title": "Publish customer portal",
+      "detail": "Publish customer access to submit requests, track status and use approved help content."
+    },
+    {
+      "title": "Handle first tickets",
+      "detail": "Review AI triage, assign agents, follow SLAs and document resolution and root cause."
+    },
+    {
+      "title": "Build knowledge base",
+      "detail": "Review AI-drafted articles from resolved tickets before publishing them."
+    },
+    {
+      "title": "Review SLA reports",
+      "detail": "Review compliance, CSAT and agent performance to improve support operations."
+    }
+  ],
+  "evaluation": "Confirm timezone, working week, language, client-isolation and service-level requirements. Multi-language interfaces and regional business-hour settings can be scoped for your deployment. Agents retain ownership and review AI drafts before customer communication.",
+  "features": [
+    {
+      "title": "Omnichannel Intake",
+      "text": "Keep incoming requests attached to trackable tickets. Portal; Email; WhatsApp; Web widget; API."
+    },
+    {
+      "title": "AI Triage & Routing",
+      "text": "Help agents review and route incoming work. Categorisation; Priority; Assignment; Duplicate detection."
+    },
+    {
+      "title": "Ticket Workspace",
+      "text": "Keep ownership, context and collaboration in view. SLAs; Internal notes; Collaboration; Macros."
+    },
+    {
+      "title": "Escalation & SLA Management",
+      "text": "Act on response and resolution targets at risk. Response and resolution targets; Business-hour settings; Escalation paths."
+    },
+    {
+      "title": "Customer Portal",
+      "text": "Give customers a clear place to raise and track requests. Submit; Track; Knowledge base; Multi-language interface options and regional business-hour settings."
+    },
+    {
+      "title": "Problem & Root-Cause",
+      "text": "Document outcomes and linked recurring issues. RCA reports; Linked incidents."
+    },
+    {
+      "title": "Knowledge Base",
+      "text": "Turn resolved tickets into reviewed help content. AI-drafted articles from resolved tickets; Knowledge-based self-service and portal reply assistance."
+    },
+    {
+      "title": "Reports",
+      "text": "Review customer outcomes and team performance. SLA compliance; CSAT; Agent performance."
+    }
+  ],
+  "tourSteps": [
+    {
+      "title": "Agent dashboard",
+      "caption": "Track requests from intake to documented resolution: agent dashboard.",
+      "screen": {
+        "description": "Track requests from intake to documented resolution: agent dashboard. Illustrative sample records only.",
+        "heading": "Agent dashboard",
+        "layout": "dashboard",
+        "sidebar": [
+          "Omnichannel Intake",
+          "AI Triage & Routing",
+          "Ticket Workspace",
+          "Escalation & SLA Management",
+          "Customer Portal"
+        ],
+        "columns": [
+          "Queue",
+          "Tickets",
+          "Status"
+        ],
+        "rows": [
+          [
+            "IT support",
+            "18",
+            "Active"
+          ],
+          [
+            "Customer requests",
+            "12",
+            "Review"
+          ],
+          [
+            "Escalations",
+            "03",
+            "Priority"
+          ]
+        ],
+        "metrics": [
+          {
+            "label": "Sample records",
+            "value": "03"
+          },
+          {
+            "label": "Needs review",
+            "value": "01"
+          },
+          {
+            "label": "Step",
+            "value": "01"
+          }
+        ]
+      }
+    },
+    {
+      "title": "New WhatsApp ticket",
+      "caption": "Track requests from intake to documented resolution: new whatsapp ticket.",
+      "screen": {
+        "description": "Track requests from intake to documented resolution: new whatsapp ticket. Illustrative sample records only.",
+        "heading": "New WhatsApp ticket",
+        "layout": "inbox",
+        "sidebar": [
+          "Omnichannel Intake",
+          "AI Triage & Routing",
+          "Ticket Workspace",
+          "Escalation & SLA Management",
+          "Customer Portal"
+        ],
+        "columns": [
+          "Message",
+          "Channel",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Unable to sign in",
+            "WhatsApp",
+            "New ticket"
+          ],
+          [
+            "Customer attachment",
+            "WhatsApp",
+            "Linked"
+          ],
+          [
+            "Reply draft",
+            "Agent workspace",
+            "Review"
+          ]
+        ],
+        "metrics": [
+          {
+            "label": "Sample records",
+            "value": "03"
+          },
+          {
+            "label": "Needs review",
+            "value": "01"
+          },
+          {
+            "label": "Step",
+            "value": "02"
+          }
+        ]
+      }
+    },
+    {
+      "title": "AI triage",
+      "caption": "Track requests from intake to documented resolution: ai triage.",
+      "screen": {
+        "description": "Track requests from intake to documented resolution: ai triage. Illustrative sample records only.",
+        "heading": "AI triage",
+        "layout": "builder",
+        "sidebar": [
+          "Omnichannel Intake",
+          "AI Triage & Routing",
+          "Ticket Workspace",
+          "Escalation & SLA Management",
+          "Customer Portal"
+        ],
+        "columns": [
+          "Suggestion",
+          "Value",
+          "Review"
+        ],
+        "rows": [
+          [
+            "Category",
+            "Account access",
+            "Suggested"
+          ],
+          [
+            "Priority",
+            "High",
+            "Agent review"
+          ],
+          [
+            "Assignment",
+            "IT team",
+            "Suggested"
+          ]
+        ],
+        "metrics": [
+          {
+            "label": "Sample records",
+            "value": "03"
+          },
+          {
+            "label": "Needs review",
+            "value": "01"
+          },
+          {
+            "label": "Step",
+            "value": "03"
+          }
+        ]
+      }
+    },
+    {
+      "title": "SLA timer & escalation",
+      "caption": "Track requests from intake to documented resolution: sla timer & escalation.",
+      "screen": {
+        "description": "Track requests from intake to documented resolution: sla timer & escalation. Illustrative sample records only.",
+        "heading": "SLA timer & escalation",
+        "layout": "sla",
+        "sidebar": [
+          "Omnichannel Intake",
+          "AI Triage & Routing",
+          "Ticket Workspace",
+          "Escalation & SLA Management",
+          "Customer Portal"
+        ],
+        "columns": [
+          "Target",
+          "Remaining",
+          "Status"
+        ],
+        "rows": [
+          [
+            "First response",
+            "00:24:00",
+            "At risk"
+          ],
+          [
+            "Resolution",
+            "03:10:00",
+            "Running"
+          ],
+          [
+            "Escalation",
+            "Team lead",
+            "Notified"
+          ]
+        ],
+        "metrics": [
+          {
+            "label": "Sample records",
+            "value": "03"
+          },
+          {
+            "label": "Needs review",
+            "value": "01"
+          },
+          {
+            "label": "Step",
+            "value": "04"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Resolution with RCA",
+      "caption": "Track requests from intake to documented resolution: resolution with rca.",
+      "screen": {
+        "description": "Track requests from intake to documented resolution: resolution with rca. Illustrative sample records only.",
+        "heading": "Resolution with RCA",
+        "layout": "report",
+        "sidebar": [
+          "Omnichannel Intake",
+          "AI Triage & Routing",
+          "Ticket Workspace",
+          "Escalation & SLA Management",
+          "Customer Portal"
+        ],
+        "columns": [
+          "Record",
+          "Detail",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Resolution",
+            "Access restored",
+            "Agent verified"
+          ],
+          [
+            "Root cause",
+            "Policy mismatch",
+            "Draft reviewed"
+          ],
+          [
+            "Linked incident",
+            "INC-024",
+            "Documented"
+          ]
+        ],
+        "metrics": [
+          {
+            "label": "Sample records",
+            "value": "03"
+          },
+          {
+            "label": "Needs review",
+            "value": "01"
+          },
+          {
+            "label": "Step",
+            "value": "05"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Customer portal",
+      "caption": "Track requests from intake to documented resolution: customer portal.",
+      "screen": {
+        "description": "Track requests from intake to documented resolution: customer portal. Illustrative sample records only.",
+        "heading": "Customer portal",
+        "layout": "table",
+        "sidebar": [
+          "Omnichannel Intake",
+          "AI Triage & Routing",
+          "Ticket Workspace",
+          "Escalation & SLA Management",
+          "Customer Portal"
+        ],
+        "columns": [
+          "Request",
+          "Updated",
+          "Status"
+        ],
+        "rows": [
+          [
+            "TCK-1042",
+            "Today",
+            "Resolved"
+          ],
+          [
+            "TCK-1037",
+            "Yesterday",
+            "In progress"
+          ],
+          [
+            "Help article",
+            "Access guide",
+            "Published"
+          ]
+        ],
+        "metrics": [
+          {
+            "label": "Sample records",
+            "value": "03"
+          },
+          {
+            "label": "Needs review",
+            "value": "01"
+          },
+          {
+            "label": "Step",
+            "value": "06"
+          }
+        ]
+      }
+    },
+    {
+      "title": "SLA report",
+      "caption": "Track requests from intake to documented resolution: sla report.",
+      "screen": {
+        "description": "Track requests from intake to documented resolution: sla report. Illustrative sample records only.",
+        "heading": "SLA report",
+        "layout": "dashboard",
+        "sidebar": [
+          "Omnichannel Intake",
+          "AI Triage & Routing",
+          "Ticket Workspace",
+          "Escalation & SLA Management",
+          "Customer Portal"
+        ],
+        "columns": [
+          "Metric",
+          "Period",
+          "Result"
+        ],
+        "rows": [
+          [
+            "SLA compliance",
+            "Month",
+            "96%"
+          ],
+          [
+            "CSAT",
+            "Month",
+            "4.6 / 5"
+          ],
+          [
+            "Resolved tickets",
+            "Month",
+            "184"
+          ]
+        ],
+        "metrics": [
+          {
+            "label": "Sample records",
+            "value": "03"
+          },
+          {
+            "label": "Needs review",
+            "value": "01"
+          },
+          {
+            "label": "Step",
+            "value": "07"
+          }
+        ]
+      }
+    }
+  ]
+}

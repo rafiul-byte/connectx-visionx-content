@@ -1,0 +1,270 @@
+{
+  "_note": "Only the fields the live ConnectX record does not have, plus the two it has badly. Everything else is taken byte for byte from content/live/. Capabilities that belong to a higher plan carry the words 'Enterprise tier' or 'scoped in the implementation plan', the same way the VisionX plan tiers gate features.",
+
+  "overviewParagraphs": [
+    "ConnectX brings IP telephony, self-service, routing and agent operations into one contact-center platform. An AI voice agent handles supported questions using approved content and connected systems, with identity checks and a contextual handoff when a person is needed. Agents work across voice, chat, email, WhatsApp and social channels, while supervisors review recordings, quality scores, queues and workforce performance. Customer-managed deployment supports existing IP handsets and integration with banking, CRM and operational systems.",
+    "The AI agent sits in the core of the platform rather than in front of it. It answers only from approved content and connected systems, applies an identity policy your risk team reads and edits as a table, and hands the conversation to a skilled agent with full context when a request is sensitive or unsupported. Language coverage, supported operations, deployment topology and retention are confirmed during evaluation."
+  ],
+
+  "problems": [
+    {
+      "pain": "A contact center assembled from separate products",
+      "outcome": "Telephony, IVR, routing, agent desktop, supervisor tooling, recording, omnichannel, reporting and workforce management in one platform, one admin console and one database."
+    },
+    {
+      "pain": "Callers queue for questions a system could answer",
+      "outcome": "The AI agent answers supported questions from approved sources and connected systems, and only the rest reach a person."
+    },
+    {
+      "pain": "Customers repeat themselves on every channel",
+      "outcome": "One universal queue and one customer history across voice, chat, email, WhatsApp and social."
+    },
+    {
+      "pain": "Every prompt or routing change waits on a developer",
+      "outcome": "Prompts, menu words, wrap-up codes and routing rules are maintained by your own business team in the console."
+    }
+  ],
+
+  "modules": [
+    {
+      "name": "AI Virtual Agent",
+      "summary": "Answer supported voice and chat questions from approved sources, under your identity policy.",
+      "features": ["Bangla and English", "Approved-source answers", "Five identity tiers", "Context handoff", "Conversation memory", "Decision log per turn"]
+    },
+    {
+      "name": "IVR & Self-Service",
+      "summary": "Run supported self-service operations from the phone menu, connected to your systems.",
+      "features": ["Menu words edited in the console", "Masked sensitive entry", "Connected account operations", "Handover with full context", "No release needed", "Drag-and-drop flow designer, scoped in the implementation plan"]
+    },
+    {
+      "name": "ACD & Routing",
+      "summary": "Send each contact to the right agent and keep the promise you made the caller.",
+      "features": ["Skill-based routing", "Priority and VIP lane", "Wait time and queue position", "Return to the last agent", "Callbacks", "Queue overflow to a named desk", "Service level by band"]
+    },
+    {
+      "name": "Agent Desktop & CTI",
+      "summary": "Put the customer's context on the screen before the call connects.",
+      "features": ["Screen pop before the ring", "WebRTC softphone", "SIP handsets", "Accounts and cards together", "Hold", "Wrap-up reason codes"]
+    },
+    {
+      "name": "Supervisor & Quality",
+      "summary": "Watch the floor, trace any conversation and set what each agent may do.",
+      "features": ["Live floor and queue view", "Trace one conversation end to end", "Roles and permissions", "Skills and the VIP list", "Wrap-up reasons and categories", "Call recording and quality scoring, Enterprise tier"]
+    },
+    {
+      "name": "Omnichannel & Knowledge",
+      "summary": "Keep one queue and one customer history across every channel.",
+      "features": ["Voice and web chat", "WhatsApp, Messenger, email and SMS", "One universal queue", "Knowledge base with named sources", "One customer history", "CRM synchronization, scoped in the implementation plan"]
+    },
+    {
+      "name": "Reporting & Wallboards",
+      "summary": "Move from a number on the board to the conversation behind it.",
+      "features": ["Browser wallboard", "Service level by band", "Drill down to the conversation", "Handover reasons", "Intents by volume", "Agent time saved", "Power BI connection, scoped in the implementation plan"]
+    },
+    {
+      "name": "Workforce & Dialer",
+      "summary": "Workforce planning and outbound campaigns, delivered with the Enterprise tier and scheduled in the implementation plan.",
+      "features": ["Demand forecasting, Enterprise tier", "Roster preparation, Enterprise tier", "Adherence monitoring, Enterprise tier", "Predictive, progressive and preview dialing, Enterprise tier", "Inbound keeps priority"]
+    },
+    {
+      "name": "Platform & Security",
+      "summary": "Run the platform on infrastructure you manage, with encrypted telephony.",
+      "features": ["SIP over TLS", "Customer-managed deployment", "Role-based access", "Sensitive input masking", "Append-only decision log", "Backup and restore", "SNMP traps and Syslog"]
+    }
+  ],
+
+  "aiCapabilities": [
+    "Voice and chat conversation in Bangla and English",
+    "Answers limited to approved sources and connected systems",
+    "Identity-tier check before anything is disclosed",
+    "Live transcription of the conversation",
+    "Intent and handover reason captured on every turn",
+    "Append-only decision log behind every answer"
+  ],
+
+  "useCases": [
+    {
+      "industry": "Banks & financial institutions",
+      "scenario": "Answer balance, card, cheque and loan questions from connected systems, verify identity by tier and route sensitive operations to an agent."
+    },
+    {
+      "industry": "Customer service teams",
+      "scenario": "Handle voice, chat, email, WhatsApp and social in one queue, with one customer history and suggested knowledge during the conversation."
+    },
+    {
+      "industry": "Contact-center operators",
+      "scenario": "Run skill-based routing, callbacks and the VIP lane across several queues from one platform and one report set."
+    },
+    {
+      "industry": "Enterprise support teams",
+      "scenario": "Offer self-service for routine internal requests and route the rest by skill, with wrap-up codes feeding reporting directly."
+    }
+  ],
+
+  "walkthrough": [
+    {
+      "title": "Confirm scope and workspace",
+      "detail": "Agree channel coverage, concurrent-agent count, supported operations and the implementation plan with the delivery team."
+    },
+    {
+      "title": "Connect trunks and systems",
+      "detail": "Connect your authorized SIP trunk provider and the business systems the agent reads from, then verify a test call end to end."
+    },
+    {
+      "title": "Define the identity policy",
+      "detail": "Write the identity tiers and the factors each operation requires in a table your risk team reads and edits."
+    },
+    {
+      "title": "Prepare approved content",
+      "detail": "Load the greetings, answers and knowledge articles the agent may use, in each language you support."
+    },
+    {
+      "title": "Design menus and routing",
+      "detail": "Set the menu words, skills, priorities, the VIP list and the wrap-up codes in the console, and test each path before go-live."
+    },
+    {
+      "title": "Review and improve",
+      "detail": "Read the value board, the service levels and the handover reasons, then adjust prompts, menus and rules from what you see."
+    }
+  ],
+
+  "plans": [
+    {
+      "name": "Starter",
+      "bestFor": "Teams starting with AI self-service on voice and chat",
+      "highlights": ["AI virtual agent", "IVR and self-service", "ACD and skill routing", "Agent desktop with CTI", "Browser wallboard"]
+    },
+    {
+      "name": "Professional",
+      "bestFor": "Contact centers running every channel from one queue",
+      "highlights": ["Everything in Starter", "WhatsApp, Messenger, email and SMS", "Knowledge base with named sources", "Supervisor console, roles and skills", "Value board and service level reporting"]
+    },
+    {
+      "name": "Enterprise",
+      "bestFor": "Regulated operations. Recording, workforce and multi-site are scoped in the implementation plan",
+      "highlights": ["Everything in Professional", "Call recording and quality scoring, Enterprise tier", "Workforce management and dialer, Enterprise tier", "Multi-site deployment", "Administrative MFA and role-based access", "Concurrent-agent licensing"]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is ConnectX a standalone product?",
+      "a": "Yes. Telephony, IVR, routing, agent desktop, supervisor tooling, recording, omnichannel, reporting, workforce management and outbound dialing ship as one platform, with one admin console and one database. A separate telephony, recording or workforce product is not required."
+    },
+    {
+      "q": "What does the AI agent actually do?",
+      "a": "It answers supported voice and chat questions using approved content and connected systems, applies your identity policy before disclosing anything, and hands the conversation to an agent with full context when a request is sensitive or unsupported."
+    },
+    {
+      "q": "Which languages does it handle?",
+      "a": "The agent is built for Bangla and English, and for the two mixed in the same conversation, locked to the language the customer chose rather than guessed. Confirm the coverage your customers need during evaluation."
+    },
+    {
+      "q": "Can customers complete transactions without an agent?",
+      "a": "Supported self-service operations are connected to your authorized systems and governed by your identity policy. Which operations are enabled, and at which identity tier, is defined by your own risk team during evaluation."
+    },
+    {
+      "q": "How do we change a prompt or a routing rule?",
+      "a": "In the admin console. Prompts, menu words, wrap-up codes, the VIP list and routing rules are maintained by your business team, with no code change and no release."
+    },
+    {
+      "q": "Can agents keep the handsets we already have?",
+      "a": "Agents can use the WebRTC softphone in the browser, or SIP handsets connected to the platform. Specific handset and headset models are confirmed during evaluation."
+    },
+    {
+      "q": "Where does ConnectX run, and what should we review?",
+      "a": "ConnectX is a customer-managed deployment on infrastructure you control. Review telephony and trunk requirements, identity policies, integration specifications, retention, training and support terms during evaluation. No hosting region or certification is implied."
+    },
+    {
+      "q": "What is in the first release, and what comes later?",
+      "a": "The AI agent, IVR self-service, ACD and skill routing, the agent desktop, the supervisor console, the knowledge base, the wallboard and the value board are delivered first, with SNMP traps and Syslog for your monitoring team. Call recording and quality scoring, workforce management and the outbound dialer, the drag-and-drop flow designer, call transfer and conference, and the Power BI and CRM connections are scoped in the implementation plan and delivered with the Enterprise tier. The split is agreed in writing during evaluation."
+    }
+  ],
+
+  "extraTourSteps": [
+    {
+      "title": "Identity and policy",
+      "caption": "Review the identity tier a request needs before any information is disclosed.",
+      "screen": {
+        "description": "Illustrative identity policy table for a ConnectX product tour.",
+        "layout": "table",
+        "sidebar": ["Policy", "Operations", "Factors", "Audit"],
+        "heading": "Identity policy",
+        "columns": ["Operation", "Tier", "Required"],
+        "rows": [
+          ["Balance enquiry", "Tier 2", "Caller ID and code"],
+          ["Card block", "Tier 3", "Code and PIN"],
+          ["PIN reset", "Agent", "Human review"]
+        ],
+        "metrics": [
+          { "label": "Tiers", "value": "05" },
+          { "label": "Checked", "value": "Every turn" },
+          { "label": "Audit", "value": "Append-only" }
+        ]
+      }
+    },
+    {
+      "title": "Service level and wallboard",
+      "caption": "Watch queues against targets, then open the conversation behind a breach.",
+      "screen": {
+        "description": "Illustrative wallboard figures for a ConnectX product tour.",
+        "layout": "report",
+        "sidebar": ["Wallboard", "Service level", "Queues", "Agents"],
+        "heading": "Service level",
+        "columns": ["Queue", "Answered", "Target"],
+        "rows": [
+          ["Account services", "92%", "80 / 20"],
+          ["Cards", "87%", "80 / 20"],
+          ["General", "95%", "80 / 20"]
+        ],
+        "metrics": [
+          { "label": "Queues", "value": "03" },
+          { "label": "Breaches", "value": "01" },
+          { "label": "Drill down", "value": "To the call" }
+        ]
+      }
+    },
+    {
+      "title": "Omnichannel queue",
+      "caption": "Watch one queue hold every channel, with the customer's history attached.",
+      "screen": {
+        "description": "Fictional US sample queue for a ConnectX product tour.",
+        "layout": "inbox",
+        "sidebar": ["Voice", "Web chat", "WhatsApp", "Email", "Social"],
+        "heading": "Universal queue",
+        "columns": ["Channel", "Customer", "Waiting"],
+        "rows": [
+          ["Web chat", "Laura Bennett", "00:12"],
+          ["WhatsApp", "Marcus Reed", "00:41"],
+          ["Email", "Anita Shah", "02:15"]
+        ],
+        "metrics": [
+          { "label": "Queues", "value": "One" },
+          { "label": "Channels", "value": "05" },
+          { "label": "History", "value": "One customer" }
+        ]
+      }
+    },
+    {
+      "title": "Value board",
+      "caption": "Read how many conversations finished without a person, and why the rest did not.",
+      "screen": {
+        "description": "Illustrative value board figures for a ConnectX product tour.",
+        "layout": "report",
+        "sidebar": ["Overview", "Value", "Intents", "Language and identity"],
+        "heading": "Value board",
+        "columns": ["Figure", "Value", "How it is counted"],
+        "rows": [
+          ["Handled without a person", "68%", "Per conversation"],
+          ["Waiting for a person", "12", "Raised, not taken"],
+          ["Agent minutes not spent", "94", "Median per day"]
+        ],
+        "metrics": [
+          { "label": "Counted", "value": "Per conversation" },
+          { "label": "Source", "value": "Live tables" },
+          { "label": "Drill down", "value": "To the turn" }
+        ]
+      }
+    }
+  ]
+}

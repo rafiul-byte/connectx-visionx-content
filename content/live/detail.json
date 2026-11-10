@@ -1,0 +1,204 @@
+{
+  "plans": [
+    {
+      "name": "Starter",
+      "bestFor": "Contact sales for deployment and licensing",
+      "highlights": []
+    },
+    {
+      "name": "Professional",
+      "bestFor": "Contact sales for deployment and licensing",
+      "highlights": []
+    },
+    {
+      "name": "Enterprise",
+      "bestFor": "Contact sales for deployment and licensing",
+      "highlights": []
+    }
+  ],
+  "security": [
+    "SIP over TLS and media over SRTP",
+    "TLS 1.2 / 1.3 and AES-256 encrypted recording storage",
+    "Multi-factor authentication for administrative access",
+    "Role-based recording playback",
+    "Sensitive input masking",
+    "Append-only AI decision audit trail",
+    "Customer-managed infrastructure; deployment and retention confirmed during evaluation"
+  ],
+  "integrations": [
+    "SIP trunk providers",
+    "WebRTC",
+    "Compatible Cisco IP handsets",
+    "CRM",
+    "Core banking and card systems",
+    "SMS gateways",
+    "Power BI",
+    "SNMP / Syslog"
+  ],
+  "related": [
+    "resuelto",
+    "meetiq",
+    "omnireach"
+  ],
+  "stats": [
+    "AI voice agent",
+    "9 modules",
+    "IP telephony"
+  ],
+  "tourSteps": [
+    {
+      "title": "Agent workspace",
+      "caption": "An illustrative call arrives with verified identity and context from the AI handoff.",
+      "screen": {
+        "description": "Fictional US sample contact-center workspace; no real customer data.",
+        "layout": "inbox",
+        "sidebar": [
+          "Calls",
+          "Customers",
+          "Knowledge",
+          "Queues",
+          "Quality"
+        ],
+        "heading": "Agent workspace",
+        "columns": [
+          "Customer",
+          "Request",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Emily Carter",
+            "Account question · (202) 555-0142",
+            "Identity verified"
+          ],
+          [
+            "James Miller",
+            "Callback request",
+            "Queued"
+          ],
+          [
+            "Sofia Ramirez",
+            "Service follow-up",
+            "Agent assigned"
+          ]
+        ],
+        "metrics": [
+          {
+            "label": "Channel",
+            "value": "Voice"
+          },
+          {
+            "label": "Identity",
+            "value": "Tier 3"
+          },
+          {
+            "label": "Handoff",
+            "value": "Ready"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Routing and callbacks",
+      "caption": "Review skill queues and callbacks before assigning the next available agent.",
+      "screen": {
+        "description": "Fictional queue examples for a ConnectX product tour.",
+        "layout": "table",
+        "sidebar": [
+          "Calls",
+          "Queues",
+          "Callbacks",
+          "Agents"
+        ],
+        "heading": "Routing and callbacks",
+        "columns": [
+          "Queue",
+          "Agent",
+          "Next step"
+        ],
+        "rows": [
+          [
+            "Account services",
+            "Michael Chen",
+            "Accept handoff"
+          ],
+          [
+            "Customer support",
+            "Emily Carter",
+            "Callback · Nov 10, 2026"
+          ],
+          [
+            "General inquiries",
+            "James Miller",
+            "Available"
+          ]
+        ],
+        "metrics": [
+          {
+            "label": "Queues",
+            "value": "03"
+          },
+          {
+            "label": "Callbacks",
+            "value": "02"
+          },
+          {
+            "label": "Available",
+            "value": "04"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Quality review",
+      "caption": "Review a recording and transcript before accepting AI-assisted coaching suggestions.",
+      "screen": {
+        "description": "Illustrative quality review with fictional conversations.",
+        "layout": "report",
+        "sidebar": [
+          "Quality",
+          "Recordings",
+          "Reports",
+          "Workforce"
+        ],
+        "heading": "Quality review",
+        "columns": [
+          "Record",
+          "Reviewer",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Voice & screen recording",
+            "Sofia Ramirez",
+            "Ready"
+          ],
+          [
+            "Transcript",
+            "Michael Chen",
+            "Review"
+          ],
+          [
+            "Coaching suggestion",
+            "Supervisor",
+            "Needs approval"
+          ]
+        ],
+        "metrics": [
+          {
+            "label": "Recording",
+            "value": "Ready"
+          },
+          {
+            "label": "AI review",
+            "value": "Draft"
+          },
+          {
+            "label": "Decision",
+            "value": "Human"
+          }
+        ]
+      }
+    }
+  ]
+}

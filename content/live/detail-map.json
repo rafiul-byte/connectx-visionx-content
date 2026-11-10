@@ -1,0 +1,3069 @@
+{
+  "omnireach": {
+    "tagline": "Campaigns, journeys and AI in one workspace.",
+    "overview": "OmniReach by VisionX Software brings email, WhatsApp, SMS, RCS and push campaigns, journeys and AI assistance into one workspace, with consent, deliverability and accountability built in. The v2.48 release connects unified contact profiles and AI-assisted segments to campaign creation, A/B tests, landing pages, reporting and workspace controls.",
+    "overviewParagraphs": [
+      "OmniReach by VisionX Software brings email, WhatsApp, SMS, RCS and push campaigns, journeys and AI assistance into one workspace, with consent, deliverability and accountability built in. The v2.48 release connects unified contact profiles and AI-assisted segments to campaign creation, A/B tests, landing pages, reporting and workspace controls.",
+      "Build campaigns with an AI copilot, templates and Canva import; connect steps on a journey canvas and ask analytics AI a question to get a chart. Deliverability, privacy, mandatory 2FA and a trust register support responsible operation. ISO 27001 / SOC 2 controls are readiness controls, not certification."
+    ],
+    "description": "Email, WhatsApp, SMS, RCS and push campaigns, journeys and AI assistance in one workspace, with consent, deliverability and accountability built in.",
+    "modules": [
+      {
+        "name": "Contacts & unified profiles",
+        "summary": "Connect contact ownership and engagement context in one profile.",
+        "features": [
+          "Contact import and custom fields",
+          "Owners",
+          "Lead scoring",
+          "Duplicate merge",
+          "Consent and unsubscribe management",
+          "Suppression lists"
+        ]
+      },
+      {
+        "name": "Segments incl. AI segment builder",
+        "summary": "Build eligible audiences with explicit rules and AI assistance.",
+        "features": [
+          "Dynamic segments",
+          "AI segment builder",
+          "Tags and behavior rules",
+          "Review AI-generated rules before use"
+        ]
+      },
+      {
+        "name": "Campaign builder with AI copilot",
+        "summary": "Draft and design channel campaigns with reusable creative assets.",
+        "features": [
+          "Email, WhatsApp, SMS, RCS and push campaigns",
+          "AI copilot",
+          "Templates",
+          "Canva import",
+          "Personalization and previews"
+        ]
+      },
+      {
+        "name": "A/B testing with auto-winner and best-time send",
+        "summary": "Compare variants and use history-informed scheduling.",
+        "features": [
+          "A/B testing",
+          "Automatic winner",
+          "Best-time send",
+          "Predictions require usable history; results are not guaranteed"
+        ]
+      },
+      {
+        "name": "Journey canvas",
+        "summary": "Connect campaign steps around consented customer behavior.",
+        "features": [
+          "Visual journey canvas",
+          "Triggers, waits and branches",
+          "Multi-channel campaign steps",
+          "Consent and preference checks"
+        ]
+      },
+      {
+        "name": "Landing pages & forms",
+        "summary": "Create campaign destinations and compare page variants.",
+        "features": [
+          "Landing pages",
+          "Forms",
+          "A/B testing",
+          "Custom domains"
+        ]
+      },
+      {
+        "name": "Reports, report builder and analytics AI",
+        "summary": "Build reports and turn a question into a chart for review.",
+        "features": [
+          "Campaign reports",
+          "Report builder",
+          "Analytics AI: ask a question, get a chart",
+          "Bot-filtered click reporting"
+        ]
+      },
+      {
+        "name": "Deliverability",
+        "summary": "Manage sender authentication, infrastructure and delivery feedback.",
+        "features": [
+          "SPF/DKIM/DMARC",
+          "BIMI",
+          "Primary and backup sending provider",
+          "Dedicated IP with warm-up",
+          "Inbox-placement testing",
+          "Postmaster/SNDS feeds",
+          "Spam-rate guardrail",
+          "Bot-filtered clicks"
+        ]
+      },
+      {
+        "name": "Privacy toolkit",
+        "summary": "Keep consent evidence and privacy work connected to campaign controls.",
+        "features": [
+          "Consent ledger",
+          "Data-subject requests",
+          "Breach register",
+          "Retention",
+          "Preference center",
+          "Frequency caps & quiet hours"
+        ]
+      },
+      {
+        "name": "Security",
+        "summary": "Control workspace access and retain accountability for activity.",
+        "features": [
+          "Mandatory 2FA",
+          "Lockout",
+          "Custom roles",
+          "IP allowlist",
+          "Session controls",
+          "Audit log",
+          "Workspace isolation"
+        ]
+      },
+      {
+        "name": "Trust register",
+        "summary": "Organize ISO 27001 / SOC 2 readiness controls and evidence.",
+        "features": [
+          "ISO 27001 readiness controls",
+          "SOC 2 readiness controls",
+          "Readiness only; no certification claim"
+        ]
+      },
+      {
+        "name": "White-label & partner program",
+        "summary": "Manage branded workspace and partner arrangements.",
+        "features": [
+          "White-label options",
+          "Partner program",
+          "Brand and partner setup"
+        ]
+      },
+      {
+        "name": "Admin & billing",
+        "summary": "Manage workspace administration, card payments and invoices.",
+        "features": [
+          "Workspace administration",
+          "Card payments via Stripe/Airwallex",
+          "Invoices"
+        ]
+      }
+    ],
+    "aiCapabilities": [
+      "Campaign AI copilot for draft content",
+      "AI segment builder with reviewable rules",
+      "Best-time send assistance based on usable history",
+      "Analytics AI: ask a question, get a chart",
+      "AI outputs must be reviewed; predictive insights require history and do not guarantee results."
+    ],
+    "aiEdge": "AI assists campaign content, segment building, send-time suggestions and analytics questions. AI outputs must be reviewed. Predictive insights require usable history and do not guarantee conversions, delivery or inbox placement.",
+    "security": [
+      "Mandatory 2FA and login lockout",
+      "Custom roles and IP allowlist",
+      "Session controls and audit log",
+      "Workspace isolation",
+      "Consent ledger, preference center and retention controls",
+      "Data-subject requests and breach register",
+      "Frequency caps & quiet hours",
+      "Trust register: ISO 27001 / SOC 2 readiness controls, not certification"
+    ],
+    "integrations": [
+      "HubSpot — available with setup",
+      "Salesforce — available with setup",
+      "Zoho — available with setup",
+      "Shopify — available with setup",
+      "WooCommerce — available with setup",
+      "Wix — available with setup",
+      "Zendesk — available with setup",
+      "Freshdesk — available with setup",
+      "Jira Service Management — available with setup",
+      "Resuelto — available with setup",
+      "Fieldora — available with setup",
+      "Canva — available with setup",
+      "Zapier — available with setup",
+      "Make — available with setup",
+      "BigQuery — available with setup",
+      "Snowflake (incl. Parquet) — available with setup",
+      "REST API with scoped OAuth — available with setup",
+      "Signed webhooks — available with setup",
+      "ChatGPT/Claude app — available with setup"
+    ],
+    "useCases": [
+      {
+        "industry": "B2B distributors",
+        "scenario": "Segment CRM contacts and automate nurture and follow-ups."
+      },
+      {
+        "industry": "Retail & e-commerce",
+        "scenario": "Personalize campaigns and review conversions and revenue attribution."
+      },
+      {
+        "industry": "Education",
+        "scenario": "Run consented applicant and student communication journeys."
+      },
+      {
+        "industry": "Events",
+        "scenario": "Schedule invitations, reminders and post-event follow-ups."
+      },
+      {
+        "industry": "Financial services",
+        "scenario": "Manage authenticated sending and consented customer campaigns."
+      }
+    ],
+    "audience": [
+      "B2B distributors",
+      "Retail & e-commerce",
+      "Education",
+      "Events",
+      "Financial services"
+    ],
+    "plans": [
+      {
+        "name": "Starter",
+        "bestFor": "Teams starting email-led campaigns",
+        "highlights": [
+          "Email campaigns",
+          "Contacts & unified profiles",
+          "Segments",
+          "Campaign builder & templates",
+          "Standard reports"
+        ]
+      },
+      {
+        "name": "Growth",
+        "bestFor": "Teams scaling segments and automated journeys",
+        "highlights": [
+          "WhatsApp, SMS, RCS & push channels",
+          "AI copilot & AI segment builder",
+          "A/B testing with auto-winner & best-time send",
+          "Journey canvas",
+          "Landing pages & forms",
+          "Report builder & analytics AI"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "bestFor": "Multi-brand teams with complex sending needs",
+        "highlights": [
+          "Multiple brands & workspaces",
+          "Send from your own domains",
+          "Choice of sending provider",
+          "White-label & partner program",
+          "API",
+          "Dedicated support"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do I pay VisionX for AI?",
+        "a": "No. You connect your own Claude or Gemini API key in the app's Settings, and your AI provider bills you directly for usage. VisionX does not sell AI credits."
+      },
+      {
+        "q": "Can we send from our own domain?",
+        "a": "Yes. Use a customer-owned sending domain and the SPF/DKIM/DMARC verification wizard to authenticate sending."
+      },
+      {
+        "q": "What happens if a sending provider has an outage?",
+        "a": "A backup sending provider supports continuity when the primary provider has an outage; this is not a guarantee of uninterrupted delivery."
+      },
+      {
+        "q": "Which campaign channels are available?",
+        "a": "OmniReach v2.48 covers email, WhatsApp, SMS, RCS and push. Choose channels that fit your consent and delivery requirements; WhatsApp requires approved templates and valid phone details. Connected services require customer setup."
+      },
+      {
+        "q": "What are the contact limits?",
+        "a": "Contact and sending limits depend on the usage-based plan. We confirm the limits and expected volumes in your proposal."
+      },
+      {
+        "q": "Does OmniReach support GDPR-style consent?",
+        "a": "Consent tracking, unsubscribe management and suppression lists support consent-based outreach. Your organization remains responsible for its lawful basis and applicable obligations."
+      },
+      {
+        "q": "Can we migrate from other tools?",
+        "a": "Yes. Import contacts by CSV and map custom fields, tags, consent and suppression records. Confirm migration scope before switching senders."
+      },
+      {
+        "q": "Is OmniReach ISO 27001 or SOC 2 certified?",
+        "a": "The trust register supports ISO 27001 / SOC 2 readiness controls. Readiness is not certification; no certification is claimed."
+      }
+    ],
+    "related": [
+      "omnipost",
+      "crawlgpt",
+      "fieldora"
+    ],
+    "stats": [
+      "Email · WhatsApp · SMS · RCS · push",
+      "Consent and privacy controls",
+      "Primary + backup sending"
+    ],
+    "problems": [
+      {
+        "pain": "Low deliverability",
+        "outcome": "Authenticated custom domains and managed sending."
+      },
+      {
+        "pain": "One-size-fits-all blasts",
+        "outcome": "Segments and personalization."
+      },
+      {
+        "pain": "Manual follow-ups",
+        "outcome": "Automated journeys."
+      },
+      {
+        "pain": "Unclear ROI",
+        "outcome": "Campaign analytics."
+      }
+    ],
+    "walkthrough": [
+      {
+        "title": "Secure and configure your workspace",
+        "detail": "Set up mandatory 2FA, roles, session controls, consent preferences and sender-domain authentication."
+      },
+      {
+        "title": "Import unified contact profiles",
+        "detail": "Bring in contacts and consent records, assign owners, review lead scoring and merge duplicates."
+      },
+      {
+        "title": "Build an eligible segment",
+        "detail": "Define segment rules or review an AI-generated segment before using it in a campaign."
+      },
+      {
+        "title": "Create and test a campaign",
+        "detail": "Use the AI copilot, templates or Canva import; review content, landing pages, forms and A/B settings."
+      },
+      {
+        "title": "Launch a consented journey",
+        "detail": "Connect triggers, waits and branches on the journey canvas with channel preferences, frequency caps and quiet hours."
+      },
+      {
+        "title": "Review reporting and delivery feedback",
+        "detail": "Use reports, the report builder and analytics AI to review results alongside inbox-placement tests, spam-rate guardrails and bot-filtered clicks."
+      }
+    ],
+    "evaluation": "Confirm sender-domain authentication, channel permissions, sending volumes, dedicated IP warm-up and integration setup. WhatsApp requires approved templates and valid phone details. AI outputs must be reviewed. Predictive insights require usable history and do not guarantee conversions, delivery or inbox placement. Trust-register controls support readiness, not certification.",
+    "features": [
+      {
+        "title": "Contacts & unified profiles",
+        "text": "Connect contact ownership and engagement context in one profile. Contact import and custom fields; Owners; Lead scoring; Duplicate merge; Consent and unsubscribe management; Suppression lists."
+      },
+      {
+        "title": "Segments incl. AI segment builder",
+        "text": "Build eligible audiences with explicit rules and AI assistance. Dynamic segments; AI segment builder; Tags and behavior rules; Review AI-generated rules before use."
+      },
+      {
+        "title": "Campaign builder with AI copilot",
+        "text": "Draft and design channel campaigns with reusable creative assets. Email, WhatsApp, SMS, RCS and push campaigns; AI copilot; Templates; Canva import; Personalization and previews."
+      },
+      {
+        "title": "A/B testing with auto-winner and best-time send",
+        "text": "Compare variants and use history-informed scheduling. A/B testing; Automatic winner; Best-time send; Predictions require usable history; results are not guaranteed."
+      },
+      {
+        "title": "Journey canvas",
+        "text": "Connect campaign steps around consented customer behavior. Visual journey canvas; Triggers, waits and branches; Multi-channel campaign steps; Consent and preference checks."
+      },
+      {
+        "title": "Landing pages & forms",
+        "text": "Create campaign destinations and compare page variants. Landing pages; Forms; A/B testing; Custom domains."
+      },
+      {
+        "title": "Reports, report builder and analytics AI",
+        "text": "Build reports and turn a question into a chart for review. Campaign reports; Report builder; Analytics AI: ask a question, get a chart; Bot-filtered click reporting."
+      },
+      {
+        "title": "Deliverability",
+        "text": "Manage sender authentication, infrastructure and delivery feedback. SPF/DKIM/DMARC; BIMI; Primary and backup sending provider; Dedicated IP with warm-up; Inbox-placement testing; Postmaster/SNDS feeds; Spam-rate guardrail; Bot-filtered clicks."
+      },
+      {
+        "title": "Privacy toolkit",
+        "text": "Keep consent evidence and privacy work connected to campaign controls. Consent ledger; Data-subject requests; Breach register; Retention; Preference center; Frequency caps & quiet hours."
+      },
+      {
+        "title": "Security",
+        "text": "Control workspace access and retain accountability for activity. Mandatory 2FA; Lockout; Custom roles; IP allowlist; Session controls; Audit log; Workspace isolation."
+      },
+      {
+        "title": "Trust register",
+        "text": "Organize ISO 27001 / SOC 2 readiness controls and evidence. ISO 27001 readiness controls; SOC 2 readiness controls; Readiness only; no certification claim."
+      },
+      {
+        "title": "White-label & partner program",
+        "text": "Manage branded workspace and partner arrangements. White-label options; Partner program; Brand and partner setup."
+      },
+      {
+        "title": "Admin & billing",
+        "text": "Manage workspace administration, card payments and invoices. Workspace administration; Card payments via Stripe/Airwallex; Invoices."
+      }
+    ],
+    "tourSteps": [
+      {
+        "title": "Contacts & unified profiles",
+        "caption": "Connect contact ownership and engagement context in one profile.",
+        "screen": {
+          "description": "Connect contact ownership and engagement context in one profile. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Contacts & unified profiles",
+          "layout": "table",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Contact A",
+              "Marketing owner",
+              "Consented"
+            ],
+            [
+              "Contact B",
+              "Sales owner",
+              "Merge review"
+            ],
+            [
+              "Contact C",
+              "Lead score",
+              "Needs review"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Segments incl. AI segment builder",
+        "caption": "Build eligible audiences with explicit rules and AI assistance.",
+        "screen": {
+          "description": "Build eligible audiences with explicit rules and AI assistance. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Segments incl. AI segment builder",
+          "layout": "builder",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Consent",
+              "Subscribed",
+              "Required"
+            ],
+            [
+              "Tag",
+              "Retail buyer",
+              "Included"
+            ],
+            [
+              "AI suggestion",
+              "Engaged contacts",
+              "Review rules"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Campaign builder with AI copilot",
+        "caption": "Draft and design channel campaigns with reusable creative assets.",
+        "screen": {
+          "description": "Draft and design channel campaigns with reusable creative assets. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Campaign builder with AI copilot",
+          "layout": "editor",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Subject",
+              "Your next update",
+              "AI draft"
+            ],
+            [
+              "Creative",
+              "Canva import",
+              "Review"
+            ],
+            [
+              "Channel",
+              "Email / WhatsApp / SMS / RCS / push",
+              "Select"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "A/B testing with auto-winner and best-time send",
+        "caption": "Compare variants and use history-informed scheduling.",
+        "screen": {
+          "description": "Compare variants and use history-informed scheduling. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "A/B testing with auto-winner and best-time send",
+          "layout": "table",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Variant A",
+              "Test audience",
+              "Testing"
+            ],
+            [
+              "Variant B",
+              "Test audience",
+              "Testing"
+            ],
+            [
+              "Auto-winner",
+              "Remaining audience",
+              "After evaluation"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Journey canvas",
+        "caption": "Connect campaign steps around consented customer behavior.",
+        "screen": {
+          "description": "Connect campaign steps around consented customer behavior. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Journey canvas",
+          "layout": "journey",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Subscribed",
+              "Consent valid",
+              "Welcome email"
+            ],
+            [
+              "Wait",
+              "Engagement check",
+              "Branch"
+            ],
+            [
+              "Follow-up",
+              "Channel preference",
+              "Consented message"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Landing pages & forms",
+        "caption": "Create campaign destinations and compare page variants.",
+        "screen": {
+          "description": "Create campaign destinations and compare page variants. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Landing pages & forms",
+          "layout": "editor",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Page",
+              "Campaign destination",
+              "Draft"
+            ],
+            [
+              "Form",
+              "Consent fields",
+              "Review"
+            ],
+            [
+              "Domain",
+              "Customer domain",
+              "Setup"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Reports, report builder and analytics AI",
+        "caption": "Build reports and turn a question into a chart for review.",
+        "screen": {
+          "description": "Build reports and turn a question into a chart for review. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Reports, report builder and analytics AI",
+          "layout": "report",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Question",
+              "Which campaign had eligible clicks?",
+              "AI query"
+            ],
+            [
+              "Chart",
+              "Campaign comparison",
+              "Review"
+            ],
+            [
+              "Clicks",
+              "Bot-filtered",
+              "Report"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Deliverability",
+        "caption": "Manage sender authentication, infrastructure and delivery feedback.",
+        "screen": {
+          "description": "Manage sender authentication, infrastructure and delivery feedback. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Deliverability",
+          "layout": "table",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "SPF / DKIM / DMARC",
+              "Customer domain",
+              "Review"
+            ],
+            [
+              "Primary + backup",
+              "Sending providers",
+              "Configured"
+            ],
+            [
+              "Spam-rate guardrail",
+              "Delivery feedback",
+              "Monitor"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Privacy toolkit",
+        "caption": "Keep consent evidence and privacy work connected to campaign controls.",
+        "screen": {
+          "description": "Keep consent evidence and privacy work connected to campaign controls. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Privacy toolkit",
+          "layout": "table",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Consent ledger",
+              "Contact preferences",
+              "Recorded"
+            ],
+            [
+              "Data-subject request",
+              "Privacy owner",
+              "In review"
+            ],
+            [
+              "Quiet hours",
+              "Regional settings",
+              "Configured"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Security",
+        "caption": "Control workspace access and retain accountability for activity.",
+        "screen": {
+          "description": "Control workspace access and retain accountability for activity. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Security",
+          "layout": "table",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "2FA",
+              "Mandatory",
+              "Enabled"
+            ],
+            [
+              "Custom role",
+              "Scoped access",
+              "Review"
+            ],
+            [
+              "Session controls",
+              "Workspace admin",
+              "Managed"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Trust register",
+        "caption": "Organize ISO 27001 / SOC 2 readiness controls and evidence.",
+        "screen": {
+          "description": "Organize ISO 27001 / SOC 2 readiness controls and evidence. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Trust register",
+          "layout": "table",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "ISO 27001",
+              "Readiness controls",
+              "Evidence review"
+            ],
+            [
+              "SOC 2",
+              "Readiness controls",
+              "Evidence review"
+            ],
+            [
+              "Control owner",
+              "Assigned responsibility",
+              "Tracked"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "White-label & partner program",
+        "caption": "Manage branded workspace and partner arrangements.",
+        "screen": {
+          "description": "Manage branded workspace and partner arrangements. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "White-label & partner program",
+          "layout": "table",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Brand",
+              "Workspace identity",
+              "Setup"
+            ],
+            [
+              "Partner",
+              "Program participation",
+              "Review"
+            ],
+            [
+              "White-label",
+              "Customer scope",
+              "Configure"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Admin & billing",
+        "caption": "Manage workspace administration, card payments and invoices.",
+        "screen": {
+          "description": "Manage workspace administration, card payments and invoices. Illustrative OmniReach v2.48 sample workspace only.",
+          "heading": "Admin & billing",
+          "layout": "table",
+          "sidebar": [
+            "Contacts",
+            "Segments",
+            "Campaigns",
+            "Journeys",
+            "Reports"
+          ],
+          "columns": [
+            "Work item",
+            "Context",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Stripe / Airwallex",
+              "Card payments",
+              "Setup"
+            ],
+            [
+              "Invoice",
+              "Billing record",
+              "Available"
+            ],
+            [
+              "Workspace",
+              "Administration",
+              "Managed"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Release",
+              "value": "2.48"
+            },
+            {
+              "label": "Data",
+              "value": "Sample"
+            },
+            {
+              "label": "Review",
+              "value": "Human"
+            }
+          ]
+        }
+      }
+    ],
+    "resources": [
+      {
+        "title": "Brochure (PDF)",
+        "kind": "brochure",
+        "url": "https://omnireach.xyz/downloads/omnireach-visionx-brochure.pdf",
+        "available": true
+      },
+      {
+        "title": "Product video",
+        "kind": "video",
+        "url": "https://omnireach.xyz/media/video/overview.mp4",
+        "available": true
+      },
+      {
+        "title": "Interactive tour",
+        "kind": "tour",
+        "url": "https://omnireach.xyz/tour",
+        "available": true
+      },
+      {
+        "title": "User guide",
+        "kind": "guide",
+        "url": "https://omnireach.xyz/docs/user-guide",
+        "available": true
+      },
+      {
+        "title": "Admin guide",
+        "kind": "guide",
+        "url": "https://omnireach.xyz/docs/admin-guide",
+        "available": true
+      }
+    ],
+    "plansUrl": "https://omnireach.xyz/pricing"
+  },
+  "omnipost": {
+    "tagline": "Every brand. Every channel. One calendar.",
+    "overview": "OmniPost is a multi-brand social media management platform. Agencies and groups plan, create, approve and publish content across social networks from one calendar, respond to comments and messages in a unified inbox, manage Google reviews, and audit content plans — with AI assisting creation and reporting.",
+    "overviewParagraphs": [
+      "OmniPost is a multi-brand social media management platform. Agencies and groups plan, create, approve and publish content across social networks from one calendar, respond to comments and messages in a unified inbox, manage Google reviews, and audit content plans — with AI assisting creation and reporting."
+    ],
+    "description": "Multi-brand social publishing, approval workflows, unified inbox, Google reviews and content-plan audits, with AI creation and white-label reporting.",
+    "modules": [
+      {
+        "name": "Publishing & Calendar",
+        "summary": "Plan each brand’s content in one calendar.",
+        "features": [
+          "Multi-brand",
+          "Multi-account scheduling",
+          "Queue",
+          "Best time",
+          "Bulk scheduling and platform-specific posts"
+        ]
+      },
+      {
+        "name": "Content Studio",
+        "summary": "Create content that reflects each brand.",
+        "features": [
+          "AI captions",
+          "Hashtags",
+          "Image library",
+          "Brand kits"
+        ]
+      },
+      {
+        "name": "Approvals",
+        "summary": "Keep clients and managers in the review loop.",
+        "features": [
+          "Client/manager approval flows",
+          "Comments",
+          "Versioning"
+        ]
+      },
+      {
+        "name": "Unified Inbox",
+        "summary": "Coordinate conversations across connected accounts.",
+        "features": [
+          "Comments",
+          "Messages",
+          "Assignment",
+          "Saved replies",
+          "Knowledge-base-supported reply assistance"
+        ]
+      },
+      {
+        "name": "Google Review Management",
+        "summary": "Monitor reputation and prepare reviewed responses.",
+        "features": [
+          "Monitor reviews",
+          "AI-drafted replies",
+          "Alerts on low ratings"
+        ]
+      },
+      {
+        "name": "Content-Plan Audit",
+        "summary": "Compare the plan with actual publishing.",
+        "features": [
+          "Gaps",
+          "Frequency",
+          "Mix analysis",
+          "Import plans and compare planned versus actual activity"
+        ]
+      },
+      {
+        "name": "Analytics & Reports",
+        "summary": "Report brand and channel performance.",
+        "features": [
+          "Engagement",
+          "Reach",
+          "Growth",
+          "White-label PDF reports"
+        ]
+      },
+      {
+        "name": "Team & Brands",
+        "summary": "Separate client access and responsibilities.",
+        "features": [
+          "Roles",
+          "Client workspaces"
+        ]
+      }
+    ],
+    "aiCapabilities": [
+      "Caption & hashtag generation",
+      "Tone per brand",
+      "Review reply drafts",
+      "Content-plan gap analysis",
+      "Report narratives"
+    ],
+    "aiEdge": "AI assists caption & hashtag generation. Drafts and recommendations remain subject to human review.",
+    "security": [
+      "Role-based access per brand",
+      "Approval audit trail",
+      "Token-secured account connections",
+      "Workspace isolation"
+    ],
+    "integrations": [
+      "Facebook",
+      "Instagram",
+      "LinkedIn",
+      "X",
+      "YouTube",
+      "TikTok",
+      "Google Business Profile",
+      "OmniReach"
+    ],
+    "useCases": [
+      {
+        "industry": "Agencies",
+        "scenario": "Plan client calendars, collect approvals and send white-label reports."
+      },
+      {
+        "industry": "Multi-brand groups",
+        "scenario": "Switch brands while keeping access and content responsibilities separate."
+      },
+      {
+        "industry": "Restaurants & hospitality",
+        "scenario": "Plan venue content, monitor Google reviews and draft responses for approval."
+      },
+      {
+        "industry": "Retail chains",
+        "scenario": "Coordinate outlet content and compare posting plans with actual activity."
+      }
+    ],
+    "audience": [
+      "Agencies",
+      "Multi-brand groups",
+      "Restaurants & hospitality",
+      "Retail chains"
+    ],
+    "plans": [
+      {
+        "name": "Solo/Brand",
+        "bestFor": "A single brand’s social team",
+        "highlights": [
+          "Publishing & calendar",
+          "Content studio",
+          "Unified inbox",
+          "Basic analytics"
+        ]
+      },
+      {
+        "name": "Agency",
+        "bestFor": "Agencies managing client brands",
+        "highlights": [
+          "Approvals incl. client approval",
+          "Google review management",
+          "Content-plan audit",
+          "Analytics & white-label reports"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "bestFor": "Groups with broader brand governance",
+        "highlights": [
+          "Team & brand governance with custom roles",
+          "API",
+          "Dedicated support"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do I pay VisionX for AI?",
+        "a": "No. You connect your own Claude or Gemini API key in the app's Settings, and your AI provider bills you directly for usage. VisionX does not sell AI credits."
+      },
+      {
+        "q": "Which networks are supported?",
+        "a": "Facebook, Instagram, LinkedIn, X, YouTube, TikTok and Google Business Profile. Available publishing and inbox actions depend on account types and platform permissions."
+      },
+      {
+        "q": "Can clients approve posts?",
+        "a": "Yes. Client and manager approval flows include comments and versioning before publication."
+      },
+      {
+        "q": "How many brands can we manage?",
+        "a": "Brand and connected-account limits depend on your plan. Confirm your client and account counts in the proposal."
+      },
+      {
+        "q": "Can we manage Google review replies?",
+        "a": "Yes. Monitor reviews, receive low-rating alerts and prepare AI-drafted replies for review before publication."
+      },
+      {
+        "q": "Are white-label reports available?",
+        "a": "Yes. Share white-label PDF reports covering engagement, reach and growth."
+      },
+      {
+        "q": "Can we control team roles?",
+        "a": "Yes. Role-based access per brand and client workspaces keep responsibilities distinct."
+      }
+    ],
+    "related": [
+      "omnireach",
+      "crawlgpt",
+      "resuelto"
+    ],
+    "stats": [
+      "Multi-brand calendar",
+      "Unified inbox",
+      "White-label reports"
+    ],
+    "problems": [
+      {
+        "pain": "Separate calendars for every brand",
+        "outcome": "One multi-brand publishing calendar."
+      },
+      {
+        "pain": "Approval feedback scattered across messages",
+        "outcome": "Client and manager approval flows with comments and versioning."
+      },
+      {
+        "pain": "Missed conversations and low ratings",
+        "outcome": "Unified inbox and Google review alerts."
+      },
+      {
+        "pain": "Content plans without follow-through",
+        "outcome": "Audit gaps, frequency and mix against actual posting."
+      }
+    ],
+    "walkthrough": [
+      {
+        "title": "Add brands & connect accounts",
+        "detail": "Create brand workspaces and connect authorized social accounts."
+      },
+      {
+        "title": "Set brand kits",
+        "detail": "Add brand assets, tone guidance and reusable templates."
+      },
+      {
+        "title": "Plan the month",
+        "detail": "Organize content dates, channels and publishing queues."
+      },
+      {
+        "title": "Create and approve posts",
+        "detail": "Draft channel-specific content and complete client or manager approval before publication."
+      },
+      {
+        "title": "Engage in the inbox",
+        "detail": "Assign comments and messages, use saved replies and review Google responses."
+      },
+      {
+        "title": "Send monthly report",
+        "detail": "Review engagement, reach and growth, then export a white-label PDF report."
+      }
+    ],
+    "evaluation": "Confirm account types, platform permissions and publishing limits. Inbox coverage, review synchronization and automated replies depend on connected service access and approval settings.",
+    "features": [
+      {
+        "title": "Publishing & Calendar",
+        "text": "Plan each brand’s content in one calendar. Multi-brand; Multi-account scheduling; Queue; Best time; Bulk scheduling and platform-specific posts."
+      },
+      {
+        "title": "Content Studio",
+        "text": "Create content that reflects each brand. AI captions; Hashtags; Image library; Brand kits."
+      },
+      {
+        "title": "Approvals",
+        "text": "Keep clients and managers in the review loop. Client/manager approval flows; Comments; Versioning."
+      },
+      {
+        "title": "Unified Inbox",
+        "text": "Coordinate conversations across connected accounts. Comments; Messages; Assignment; Saved replies; Knowledge-base-supported reply assistance."
+      },
+      {
+        "title": "Google Review Management",
+        "text": "Monitor reputation and prepare reviewed responses. Monitor reviews; AI-drafted replies; Alerts on low ratings."
+      },
+      {
+        "title": "Content-Plan Audit",
+        "text": "Compare the plan with actual publishing. Gaps; Frequency; Mix analysis; Import plans and compare planned versus actual activity."
+      },
+      {
+        "title": "Analytics & Reports",
+        "text": "Report brand and channel performance. Engagement; Reach; Growth; White-label PDF reports."
+      },
+      {
+        "title": "Team & Brands",
+        "text": "Separate client access and responsibilities. Roles; Client workspaces."
+      }
+    ],
+    "tourSteps": [
+      {
+        "title": "Brand switcher dashboard",
+        "caption": "Plan, approve and measure connected brand content: brand switcher dashboard.",
+        "screen": {
+          "description": "Plan, approve and measure connected brand content: brand switcher dashboard. Illustrative sample records only.",
+          "heading": "Brand switcher dashboard",
+          "layout": "dashboard",
+          "sidebar": [
+            "Publishing & Calendar",
+            "Content Studio",
+            "Approvals",
+            "Unified Inbox",
+            "Google Review Management"
+          ],
+          "columns": [
+            "Brand",
+            "Accounts",
+            "Status"
+          ],
+          "rows": [
+            [
+              "North brand",
+              "04",
+              "Active"
+            ],
+            [
+              "South brand",
+              "03",
+              "Active"
+            ],
+            [
+              "Client workspace",
+              "02",
+              "Review"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "01"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Content calendar",
+        "caption": "Plan, approve and measure connected brand content: content calendar.",
+        "screen": {
+          "description": "Plan, approve and measure connected brand content: content calendar. Illustrative sample records only.",
+          "heading": "Content calendar",
+          "layout": "calendar",
+          "sidebar": [
+            "Publishing & Calendar",
+            "Content Studio",
+            "Approvals",
+            "Unified Inbox",
+            "Google Review Management"
+          ],
+          "columns": [
+            "Post",
+            "Scheduled",
+            "Status"
+          ],
+          "rows": [
+            [
+              "New collection",
+              "Mon · 10:00",
+              "Approved"
+            ],
+            [
+              "Behind the scenes",
+              "Wed · 14:00",
+              "Draft"
+            ],
+            [
+              "Weekend offer",
+              "Fri · 09:00",
+              "Queued"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "02"
+            }
+          ]
+        }
+      },
+      {
+        "title": "AI caption composer",
+        "caption": "Plan, approve and measure connected brand content: ai caption composer.",
+        "screen": {
+          "description": "Plan, approve and measure connected brand content: ai caption composer. Illustrative sample records only.",
+          "heading": "AI caption composer",
+          "layout": "editor",
+          "sidebar": [
+            "Publishing & Calendar",
+            "Content Studio",
+            "Approvals",
+            "Unified Inbox",
+            "Google Review Management"
+          ],
+          "columns": [
+            "Field",
+            "Draft",
+            "Review"
+          ],
+          "rows": [
+            [
+              "Brand tone",
+              "Friendly",
+              "Applied"
+            ],
+            [
+              "Caption",
+              "Explore our new collection",
+              "Draft"
+            ],
+            [
+              "Hashtags",
+              "#NewCollection",
+              "Review"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "03"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Approval request",
+        "caption": "Plan, approve and measure connected brand content: approval request.",
+        "screen": {
+          "description": "Plan, approve and measure connected brand content: approval request. Illustrative sample records only.",
+          "heading": "Approval request",
+          "layout": "approval",
+          "sidebar": [
+            "Publishing & Calendar",
+            "Content Studio",
+            "Approvals",
+            "Unified Inbox",
+            "Google Review Management"
+          ],
+          "columns": [
+            "Reviewer",
+            "Version",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Creator",
+              "v2",
+              "Submitted"
+            ],
+            [
+              "Client manager",
+              "v2",
+              "Commented"
+            ],
+            [
+              "Publisher",
+              "v2",
+              "Awaiting approval"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "04"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Unified inbox",
+        "caption": "Plan, approve and measure connected brand content: unified inbox.",
+        "screen": {
+          "description": "Plan, approve and measure connected brand content: unified inbox. Illustrative sample records only.",
+          "heading": "Unified inbox",
+          "layout": "inbox",
+          "sidebar": [
+            "Publishing & Calendar",
+            "Content Studio",
+            "Approvals",
+            "Unified Inbox",
+            "Google Review Management"
+          ],
+          "columns": [
+            "Conversation",
+            "Assigned",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Instagram comment",
+              "Community team",
+              "Open"
+            ],
+            [
+              "Facebook message",
+              "Agent 02",
+              "In progress"
+            ],
+            [
+              "LinkedIn comment",
+              "Brand lead",
+              "Resolved"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "05"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Review management",
+        "caption": "Plan, approve and measure connected brand content: review management.",
+        "screen": {
+          "description": "Plan, approve and measure connected brand content: review management. Illustrative sample records only.",
+          "heading": "Review management",
+          "layout": "inbox",
+          "sidebar": [
+            "Publishing & Calendar",
+            "Content Studio",
+            "Approvals",
+            "Unified Inbox",
+            "Google Review Management"
+          ],
+          "columns": [
+            "Google review",
+            "Rating",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Venue feedback",
+              "2 stars",
+              "Alert"
+            ],
+            [
+              "Customer visit",
+              "5 stars",
+              "Reply drafted"
+            ],
+            [
+              "Order feedback",
+              "4 stars",
+              "Review reply"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "06"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Report",
+        "caption": "Plan, approve and measure connected brand content: report.",
+        "screen": {
+          "description": "Plan, approve and measure connected brand content: report. Illustrative sample records only.",
+          "heading": "Report",
+          "layout": "dashboard",
+          "sidebar": [
+            "Publishing & Calendar",
+            "Content Studio",
+            "Approvals",
+            "Unified Inbox",
+            "Google Review Management"
+          ],
+          "columns": [
+            "Metric",
+            "Brand",
+            "Result"
+          ],
+          "rows": [
+            [
+              "Engagement",
+              "North brand",
+              "+12%"
+            ],
+            [
+              "Reach",
+              "North brand",
+              "18,400"
+            ],
+            [
+              "Growth",
+              "North brand",
+              "+240"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "07"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "crawlgpt": {
+    "tagline": "Search visibility, including the AI answer era.",
+    "overview": "CrawlGPT combines classic SEO with generative-engine optimization. It crawls and audits your site, builds keyword and topic strategies, optimizes content, and tracks whether AI assistants and answer engines cite your brand — so you stay visible in both search results and AI answers.",
+    "overviewParagraphs": [
+      "CrawlGPT combines classic SEO with generative-engine optimization. It crawls and audits your site, builds keyword and topic strategies, optimizes content, and tracks whether AI assistants and answer engines cite your brand — so you stay visible in both search results and AI answers."
+    ],
+    "description": "SEO and generative-engine optimization with site audits, keyword clusters, content scoring, AI citation tracking, topical maps and visibility reports.",
+    "modules": [
+      {
+        "name": "Site Audit & Crawler",
+        "summary": "Identify technical and discovery issues.",
+        "features": [
+          "Technical issues",
+          "Core Web Vitals",
+          "Indexability",
+          "Schema checks",
+          "AI-bot access, robots.txt and llms.txt recommendations",
+          "International SEO and hreflang review"
+        ]
+      },
+      {
+        "name": "Keyword Strategy",
+        "summary": "Turn search opportunities into focused topic groups.",
+        "features": [
+          "Research",
+          "Clustering",
+          "Intent",
+          "Difficulty"
+        ]
+      },
+      {
+        "name": "Content Optimization",
+        "summary": "Improve pages using scores and focused briefs.",
+        "features": [
+          "On-page scoring",
+          "Briefs",
+          "AI rewrites",
+          "E-E-A-T trust-signal review",
+          "Beta retrieval-oriented content scoring and structured exports"
+        ]
+      },
+      {
+        "name": "AI Citations Tracking",
+        "summary": "Review brand evidence in supported AI answers.",
+        "features": [
+          "Brand mentions and citations in AI answers",
+          "Share of voice",
+          "Snippets, positions and sentiment"
+        ]
+      },
+      {
+        "name": "Topical Authority Maps",
+        "summary": "Map topic coverage and entity relationships.",
+        "features": [
+          "Topic gaps",
+          "Content pillars",
+          "Entity relationships"
+        ]
+      },
+      {
+        "name": "Competitor Analysis",
+        "summary": "Compare competing content and visibility.",
+        "features": [
+          "Competitor content changes",
+          "Opportunity and threat review"
+        ]
+      },
+      {
+        "name": "Rank & Visibility Tracking",
+        "summary": "Track movement in search and AI visibility.",
+        "features": [
+          "Rank movement",
+          "Search visibility",
+          "AI visibility"
+        ]
+      },
+      {
+        "name": "Reports & Alerts",
+        "summary": "Share priorities and monitor changes.",
+        "features": [
+          "Reports",
+          "Alerts",
+          "Impact-versus-effort prioritization"
+        ]
+      }
+    ],
+    "aiCapabilities": [
+      "Content briefs",
+      "Rewrites",
+      "Schema generation",
+      "AI-answer citation analysis",
+      "Issue prioritization"
+    ],
+    "aiEdge": "AI assists content briefs. Drafts and recommendations remain subject to human review.",
+    "security": [
+      "Workspace isolation",
+      "Role-based access",
+      "Read-only site crawling"
+    ],
+    "integrations": [
+      "Google Search Console",
+      "Google Analytics",
+      "CMS exports",
+      "OmniPost",
+      "OmniReach"
+    ],
+    "useCases": [
+      {
+        "industry": "Marketing teams",
+        "scenario": "Prioritize technical issues, content improvements and AI visibility."
+      },
+      {
+        "industry": "SEO agencies",
+        "scenario": "Organize client audits, keyword clusters and visibility reports."
+      },
+      {
+        "industry": "E-commerce",
+        "scenario": "Review indexability and product-content opportunities."
+      },
+      {
+        "industry": "Publishers",
+        "scenario": "Map topical coverage and strengthen content for search and AI answers."
+      },
+      {
+        "industry": "B2B SaaS",
+        "scenario": "Compare competitor visibility and track brand citations in AI answers."
+      }
+    ],
+    "audience": [
+      "Marketing teams",
+      "SEO agencies",
+      "E-commerce",
+      "Publishers",
+      "B2B SaaS"
+    ],
+    "plans": [
+      {
+        "name": "Starter",
+        "bestFor": "Teams starting site optimization",
+        "highlights": [
+          "Site audit & crawler",
+          "Keyword strategy",
+          "Content optimization",
+          "Reports"
+        ]
+      },
+      {
+        "name": "Pro",
+        "bestFor": "Teams managing ongoing visibility",
+        "highlights": [
+          "Rank & visibility tracking",
+          "AI citations tracking",
+          "Competitor analysis",
+          "Topical authority maps",
+          "Alerts"
+        ]
+      },
+      {
+        "name": "Agency",
+        "bestFor": "Agencies coordinating client research",
+        "highlights": [
+          "Multiple client sites",
+          "White-label agency reports",
+          "API",
+          "Dedicated support"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do I pay VisionX for AI?",
+        "a": "No. You connect your own Claude or Gemini API key in the app's Settings, and your AI provider bills you directly for usage. VisionX does not sell AI credits."
+      },
+      {
+        "q": "What is generative-engine optimization?",
+        "a": "It is the work of making your brand and content discoverable and useful in AI-generated answers, alongside traditional search-engine optimization."
+      },
+      {
+        "q": "How are AI citations tracked?",
+        "a": "CrawlGPT reviews brand mentions and citation evidence in supported AI answer services, including available snippets, positions and share of voice. Coverage depends on the available services and data sources."
+      },
+      {
+        "q": "What are the crawl limits?",
+        "a": "Crawl limits depend on your plan and site requirements. Confirm page volume and crawl frequency in your proposal."
+      },
+      {
+        "q": "Can we track competitors?",
+        "a": "Yes. Add competitors to compare content changes, ranking movement and visibility."
+      },
+      {
+        "q": "Is agency white-label reporting available?",
+        "a": "Discuss agency white-label requirements during your demo; reporting and branding scope are confirmed in your proposal."
+      },
+      {
+        "q": "Which data sources are used?",
+        "a": "Site crawling, Google Search Console, Google Analytics and supported search and AI-answer sources inform the reports. Availability and access affect coverage."
+      }
+    ],
+    "related": [
+      "omnipost",
+      "omnireach",
+      "clear-intelligence"
+    ],
+    "stats": [
+      "SEO + GEO",
+      "AI citation tracking",
+      "Read-only crawl"
+    ],
+    "problems": [
+      {
+        "pain": "Technical issues obscure priority fixes",
+        "outcome": "Crawl audits and impact-versus-effort priorities."
+      },
+      {
+        "pain": "Keywords remain an unstructured list",
+        "outcome": "Intent-led keyword clusters and topical maps."
+      },
+      {
+        "pain": "Content lacks clear optimization guidance",
+        "outcome": "On-page scoring, briefs and AI rewrites."
+      },
+      {
+        "pain": "AI answer visibility is unclear",
+        "outcome": "Brand mentions, citations and share-of-voice tracking."
+      }
+    ],
+    "walkthrough": [
+      {
+        "title": "Add your site & competitors",
+        "detail": "Create the site project, add competitors and connect available search and analytics sources."
+      },
+      {
+        "title": "Run first crawl",
+        "detail": "Run a read-only crawl and inspect technical issues, indexability and schema checks."
+      },
+      {
+        "title": "Fix priority issues",
+        "detail": "Apply reviewed recommendations through your website or CMS publishing process."
+      },
+      {
+        "title": "Build keyword clusters",
+        "detail": "Group research by intent and topic to build a content strategy."
+      },
+      {
+        "title": "Optimize top pages",
+        "detail": "Use briefs, on-page scoring and reviewed rewrites to improve priority content."
+      },
+      {
+        "title": "Track AI citations monthly",
+        "detail": "Review brand mentions and citation evidence monthly alongside rank and visibility trends."
+      }
+    ],
+    "evaluation": "Confirm available data connections and AI answer services in your subscription. External access affects coverage, beta tools may change and website fixes are applied in your publishing workflow. Recommendations and directional scores cannot guarantee rankings, traffic or AI citations.",
+    "features": [
+      {
+        "title": "Site Audit & Crawler",
+        "text": "Identify technical and discovery issues. Technical issues; Core Web Vitals; Indexability; Schema checks; AI-bot access, robots.txt and llms.txt recommendations; International SEO and hreflang review."
+      },
+      {
+        "title": "Keyword Strategy",
+        "text": "Turn search opportunities into focused topic groups. Research; Clustering; Intent; Difficulty."
+      },
+      {
+        "title": "Content Optimization",
+        "text": "Improve pages using scores and focused briefs. On-page scoring; Briefs; AI rewrites; E-E-A-T trust-signal review; Beta retrieval-oriented content scoring and structured exports."
+      },
+      {
+        "title": "AI Citations Tracking",
+        "text": "Review brand evidence in supported AI answers. Brand mentions and citations in AI answers; Share of voice; Snippets, positions and sentiment."
+      },
+      {
+        "title": "Topical Authority Maps",
+        "text": "Map topic coverage and entity relationships. Topic gaps; Content pillars; Entity relationships."
+      },
+      {
+        "title": "Competitor Analysis",
+        "text": "Compare competing content and visibility. Competitor content changes; Opportunity and threat review."
+      },
+      {
+        "title": "Rank & Visibility Tracking",
+        "text": "Track movement in search and AI visibility. Rank movement; Search visibility; AI visibility."
+      },
+      {
+        "title": "Reports & Alerts",
+        "text": "Share priorities and monitor changes. Reports; Alerts; Impact-versus-effort prioritization."
+      }
+    ],
+    "tourSteps": [
+      {
+        "title": "Visibility dashboard",
+        "caption": "Review search and AI-answer evidence: visibility dashboard.",
+        "screen": {
+          "description": "Review search and AI-answer evidence: visibility dashboard. Illustrative sample records only.",
+          "heading": "Visibility dashboard",
+          "layout": "dashboard",
+          "sidebar": [
+            "Site Audit & Crawler",
+            "Keyword Strategy",
+            "Content Optimization",
+            "AI Citations Tracking",
+            "Topical Authority Maps"
+          ],
+          "columns": [
+            "Channel",
+            "Measure",
+            "Trend"
+          ],
+          "rows": [
+            [
+              "Search",
+              "Rank visibility",
+              "Review"
+            ],
+            [
+              "AI answers",
+              "Brand citations",
+              "Tracked"
+            ],
+            [
+              "Site health",
+              "Priority issues",
+              "12 open"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "01"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Crawl audit",
+        "caption": "Review search and AI-answer evidence: crawl audit.",
+        "screen": {
+          "description": "Review search and AI-answer evidence: crawl audit. Illustrative sample records only.",
+          "heading": "Crawl audit",
+          "layout": "warning",
+          "sidebar": [
+            "Site Audit & Crawler",
+            "Keyword Strategy",
+            "Content Optimization",
+            "AI Citations Tracking",
+            "Topical Authority Maps"
+          ],
+          "columns": [
+            "Issue",
+            "Page",
+            "Priority"
+          ],
+          "rows": [
+            [
+              "Noindex directive",
+              "/category",
+              "High"
+            ],
+            [
+              "Missing schema",
+              "/product",
+              "Medium"
+            ],
+            [
+              "Core Web Vitals",
+              "/home",
+              "Review"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "02"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Keyword clusters",
+        "caption": "Review search and AI-answer evidence: keyword clusters.",
+        "screen": {
+          "description": "Review search and AI-answer evidence: keyword clusters. Illustrative sample records only.",
+          "heading": "Keyword clusters",
+          "layout": "pipeline",
+          "sidebar": [
+            "Site Audit & Crawler",
+            "Keyword Strategy",
+            "Content Optimization",
+            "AI Citations Tracking",
+            "Topical Authority Maps"
+          ],
+          "columns": [
+            "Cluster",
+            "Intent",
+            "Difficulty"
+          ],
+          "rows": [
+            [
+              "Field CRM",
+              "Commercial",
+              "Medium"
+            ],
+            [
+              "Visit verification",
+              "Informational",
+              "Low"
+            ],
+            [
+              "CRM comparison",
+              "Comparison",
+              "High"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "03"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Content editor with score",
+        "caption": "Review search and AI-answer evidence: content editor with score.",
+        "screen": {
+          "description": "Review search and AI-answer evidence: content editor with score. Illustrative sample records only.",
+          "heading": "Content editor with score",
+          "layout": "editor",
+          "sidebar": [
+            "Site Audit & Crawler",
+            "Keyword Strategy",
+            "Content Optimization",
+            "AI Citations Tracking",
+            "Topical Authority Maps"
+          ],
+          "columns": [
+            "Content check",
+            "Score",
+            "Action"
+          ],
+          "rows": [
+            [
+              "On-page coverage",
+              "72 / 100",
+              "Improve"
+            ],
+            [
+              "Heading structure",
+              "Good",
+              "Keep"
+            ],
+            [
+              "Schema",
+              "Missing",
+              "Review draft"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "04"
+            }
+          ]
+        }
+      },
+      {
+        "title": "AI citation tracker",
+        "caption": "Review search and AI-answer evidence: ai citation tracker.",
+        "screen": {
+          "description": "Review search and AI-answer evidence: ai citation tracker. Illustrative sample records only.",
+          "heading": "AI citation tracker",
+          "layout": "table",
+          "sidebar": [
+            "Site Audit & Crawler",
+            "Keyword Strategy",
+            "Content Optimization",
+            "AI Citations Tracking",
+            "Topical Authority Maps"
+          ],
+          "columns": [
+            "Answer sample",
+            "Evidence",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Field CRM answer",
+              "Brand mentioned",
+              "Captured"
+            ],
+            [
+              "Comparison answer",
+              "Source link",
+              "Cited"
+            ],
+            [
+              "Category answer",
+              "Competitor mention",
+              "Review"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "05"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Topical map",
+        "caption": "Review search and AI-answer evidence: topical map.",
+        "screen": {
+          "description": "Review search and AI-answer evidence: topical map. Illustrative sample records only.",
+          "heading": "Topical map",
+          "layout": "topical",
+          "sidebar": [
+            "Site Audit & Crawler",
+            "Keyword Strategy",
+            "Content Optimization",
+            "AI Citations Tracking",
+            "Topical Authority Maps"
+          ],
+          "columns": [
+            "Topic",
+            "Coverage",
+            "Action"
+          ],
+          "rows": [
+            [
+              "Field CRM",
+              "Pillar page",
+              "Present"
+            ],
+            [
+              "Offline visits",
+              "Supporting article",
+              "Gap"
+            ],
+            [
+              "Visit consent",
+              "Supporting article",
+              "Expand"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "06"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Report",
+        "caption": "Review search and AI-answer evidence: report.",
+        "screen": {
+          "description": "Review search and AI-answer evidence: report. Illustrative sample records only.",
+          "heading": "Report",
+          "layout": "dashboard",
+          "sidebar": [
+            "Site Audit & Crawler",
+            "Keyword Strategy",
+            "Content Optimization",
+            "AI Citations Tracking",
+            "Topical Authority Maps"
+          ],
+          "columns": [
+            "Report",
+            "Scope",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Technical priorities",
+              "Site",
+              "Ready"
+            ],
+            [
+              "Rank & visibility",
+              "Month",
+              "Review"
+            ],
+            [
+              "AI citation evidence",
+              "Month",
+              "Ready"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "07"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "resuelto": {
+    "tagline": "From incoming request to documented resolution.",
+    "overview": "Resuelto is an AI-assisted IT service desk and customer support platform. Requests arrive from the customer portal, email or WhatsApp, are triaged and routed by AI, tracked against SLAs, escalated when needed and closed with root-cause documentation that feeds a knowledge base.",
+    "overviewParagraphs": [
+      "Resuelto is an AI-assisted IT service desk and customer support platform. Requests arrive from the customer portal, email or WhatsApp, are triaged and routed by AI, tracked against SLAs, escalated when needed and closed with root-cause documentation that feeds a knowledge base."
+    ],
+    "description": "AI-assisted support with portal, email and WhatsApp intake, ticket triage, SLAs, escalation, root-cause documentation and knowledge articles.",
+    "modules": [
+      {
+        "name": "Omnichannel Intake",
+        "summary": "Keep incoming requests attached to trackable tickets.",
+        "features": [
+          "Portal",
+          "Email",
+          "WhatsApp",
+          "Web widget",
+          "API"
+        ]
+      },
+      {
+        "name": "AI Triage & Routing",
+        "summary": "Help agents review and route incoming work.",
+        "features": [
+          "Categorisation",
+          "Priority",
+          "Assignment",
+          "Duplicate detection"
+        ]
+      },
+      {
+        "name": "Ticket Workspace",
+        "summary": "Keep ownership, context and collaboration in view.",
+        "features": [
+          "SLAs",
+          "Internal notes",
+          "Collaboration",
+          "Macros"
+        ]
+      },
+      {
+        "name": "Escalation & SLA Management",
+        "summary": "Act on response and resolution targets at risk.",
+        "features": [
+          "Response and resolution targets",
+          "Business-hour settings",
+          "Escalation paths"
+        ]
+      },
+      {
+        "name": "Customer Portal",
+        "summary": "Give customers a clear place to raise and track requests.",
+        "features": [
+          "Submit",
+          "Track",
+          "Knowledge base",
+          "Multi-language interface options and regional business-hour settings"
+        ]
+      },
+      {
+        "name": "Problem & Root-Cause",
+        "summary": "Document outcomes and linked recurring issues.",
+        "features": [
+          "RCA reports",
+          "Linked incidents"
+        ]
+      },
+      {
+        "name": "Knowledge Base",
+        "summary": "Turn resolved tickets into reviewed help content.",
+        "features": [
+          "AI-drafted articles from resolved tickets",
+          "Knowledge-based self-service and portal reply assistance"
+        ]
+      },
+      {
+        "name": "Reports",
+        "summary": "Review customer outcomes and team performance.",
+        "features": [
+          "SLA compliance",
+          "CSAT",
+          "Agent performance"
+        ]
+      }
+    ],
+    "aiCapabilities": [
+      "Auto-categorisation & priority",
+      "Suggested replies",
+      "Ticket summaries",
+      "Root-cause drafting",
+      "Knowledge-article generation",
+      "Sentiment detection"
+    ],
+    "aiEdge": "AI assists auto-categorisation & priority. Drafts and recommendations remain subject to human review.",
+    "security": [
+      "Customer isolation",
+      "Role-based access",
+      "Audit trail",
+      "Encrypted attachments",
+      "SLA evidence"
+    ],
+    "integrations": [
+      "WhatsApp",
+      "Email",
+      "OmniReach",
+      "Fieldora",
+      "Webhooks/API",
+      "Monitoring alerts"
+    ],
+    "useCases": [
+      {
+        "industry": "MSPs & IT service providers",
+        "scenario": "Manage multiple client queues with service levels and root-cause documentation."
+      },
+      {
+        "industry": "Internal IT desks",
+        "scenario": "Route internal requests, track SLAs and build reusable knowledge articles."
+      },
+      {
+        "industry": "SaaS support",
+        "scenario": "Coordinate customer requests across portal, email and WhatsApp."
+      },
+      {
+        "industry": "Distributors’ after-sales",
+        "scenario": "Link after-sales requests to escalations, documented resolutions and customer status updates."
+      }
+    ],
+    "audience": [
+      "MSPs & IT service providers",
+      "Internal IT desks",
+      "SaaS support",
+      "Distributors’ after-sales"
+    ],
+    "plans": [
+      {
+        "name": "Team",
+        "bestFor": "Support teams establishing a service desk",
+        "highlights": [
+          "Email & web ticket intake",
+          "Ticket workspace",
+          "Customer portal",
+          "Knowledge base",
+          "Standard reports"
+        ]
+      },
+      {
+        "name": "Business",
+        "bestFor": "Teams managing broader SLA workflows",
+        "highlights": [
+          "Omnichannel intake incl. WhatsApp",
+          "AI triage & routing",
+          "Escalation & SLA management",
+          "Problem & root-cause",
+          "Custom reports"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "bestFor": "Organizations with complex client and integration needs",
+        "highlights": [
+          "Multiple customers/clients (MSP)",
+          "Portal embedded in your own website",
+          "Integrations & API",
+          "Dedicated support"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do I pay VisionX for AI?",
+        "a": "No. You connect your own Claude or Gemini API key in the app's Settings, and your AI provider bills you directly for usage. VisionX does not sell AI credits."
+      },
+      {
+        "q": "Can WhatsApp messages become tickets?",
+        "a": "Yes. Connect the supported WhatsApp intake to create trackable tickets with the conversation attached."
+      },
+      {
+        "q": "Can we configure SLAs?",
+        "a": "Yes. Configure response and resolution targets, business hours and escalation paths."
+      },
+      {
+        "q": "Can we support multiple customers or clients?",
+        "a": "Yes. Customer isolation and role-based access support distinct customer records and responsibilities."
+      },
+      {
+        "q": "How is the knowledge base built?",
+        "a": "AI drafts articles from resolved tickets and root-cause documentation. Agents review articles before publication; customers can access approved help content in the portal."
+      },
+      {
+        "q": "Which integrations are available?",
+        "a": "WhatsApp, email, OmniReach, Fieldora, webhooks/API and monitoring alerts. Confirm connection requirements during onboarding."
+      },
+      {
+        "q": "Which reports can we review?",
+        "a": "Review SLA compliance, CSAT and agent performance, with evidence of response, escalation and resolution activity."
+      }
+    ],
+    "related": [
+      "omnireach",
+      "fieldora",
+      "payhub"
+    ],
+    "stats": [
+      "Omnichannel intake",
+      "SLA tracking",
+      "Root-cause knowledge"
+    ],
+    "problems": [
+      {
+        "pain": "Requests scattered across channels",
+        "outcome": "Portal, email and WhatsApp intake in one ticket workflow."
+      },
+      {
+        "pain": "Manual triage slows ownership",
+        "outcome": "AI categorisation, priority and routing for agent review."
+      },
+      {
+        "pain": "Missed service commitments",
+        "outcome": "SLA timers and escalation paths."
+      },
+      {
+        "pain": "Recurring issues lack reusable answers",
+        "outcome": "Root-cause records feed reviewed knowledge articles."
+      }
+    ],
+    "walkthrough": [
+      {
+        "title": "Configure teams, categories & SLAs",
+        "detail": "Define ownership, request categories, business hours, response and resolution targets."
+      },
+      {
+        "title": "Connect email and WhatsApp",
+        "detail": "Connect intake channels and verify messages arrive as tickets."
+      },
+      {
+        "title": "Publish customer portal",
+        "detail": "Publish customer access to submit requests, track status and use approved help content."
+      },
+      {
+        "title": "Handle first tickets",
+        "detail": "Review AI triage, assign agents, follow SLAs and document resolution and root cause."
+      },
+      {
+        "title": "Build knowledge base",
+        "detail": "Review AI-drafted articles from resolved tickets before publishing them."
+      },
+      {
+        "title": "Review SLA reports",
+        "detail": "Review compliance, CSAT and agent performance to improve support operations."
+      }
+    ],
+    "evaluation": "Confirm timezone, working week, language, client-isolation and service-level requirements. Multi-language interfaces and regional business-hour settings can be scoped for your deployment. Agents retain ownership and review AI drafts before customer communication.",
+    "features": [
+      {
+        "title": "Omnichannel Intake",
+        "text": "Keep incoming requests attached to trackable tickets. Portal; Email; WhatsApp; Web widget; API."
+      },
+      {
+        "title": "AI Triage & Routing",
+        "text": "Help agents review and route incoming work. Categorisation; Priority; Assignment; Duplicate detection."
+      },
+      {
+        "title": "Ticket Workspace",
+        "text": "Keep ownership, context and collaboration in view. SLAs; Internal notes; Collaboration; Macros."
+      },
+      {
+        "title": "Escalation & SLA Management",
+        "text": "Act on response and resolution targets at risk. Response and resolution targets; Business-hour settings; Escalation paths."
+      },
+      {
+        "title": "Customer Portal",
+        "text": "Give customers a clear place to raise and track requests. Submit; Track; Knowledge base; Multi-language interface options and regional business-hour settings."
+      },
+      {
+        "title": "Problem & Root-Cause",
+        "text": "Document outcomes and linked recurring issues. RCA reports; Linked incidents."
+      },
+      {
+        "title": "Knowledge Base",
+        "text": "Turn resolved tickets into reviewed help content. AI-drafted articles from resolved tickets; Knowledge-based self-service and portal reply assistance."
+      },
+      {
+        "title": "Reports",
+        "text": "Review customer outcomes and team performance. SLA compliance; CSAT; Agent performance."
+      }
+    ],
+    "tourSteps": [
+      {
+        "title": "Agent dashboard",
+        "caption": "Track requests from intake to documented resolution: agent dashboard.",
+        "screen": {
+          "description": "Track requests from intake to documented resolution: agent dashboard. Illustrative sample records only.",
+          "heading": "Agent dashboard",
+          "layout": "dashboard",
+          "sidebar": [
+            "Omnichannel Intake",
+            "AI Triage & Routing",
+            "Ticket Workspace",
+            "Escalation & SLA Management",
+            "Customer Portal"
+          ],
+          "columns": [
+            "Queue",
+            "Tickets",
+            "Status"
+          ],
+          "rows": [
+            [
+              "IT support",
+              "18",
+              "Active"
+            ],
+            [
+              "Customer requests",
+              "12",
+              "Review"
+            ],
+            [
+              "Escalations",
+              "03",
+              "Priority"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "01"
+            }
+          ]
+        }
+      },
+      {
+        "title": "New WhatsApp ticket",
+        "caption": "Track requests from intake to documented resolution: new whatsapp ticket.",
+        "screen": {
+          "description": "Track requests from intake to documented resolution: new whatsapp ticket. Illustrative sample records only.",
+          "heading": "New WhatsApp ticket",
+          "layout": "inbox",
+          "sidebar": [
+            "Omnichannel Intake",
+            "AI Triage & Routing",
+            "Ticket Workspace",
+            "Escalation & SLA Management",
+            "Customer Portal"
+          ],
+          "columns": [
+            "Message",
+            "Channel",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Unable to sign in",
+              "WhatsApp",
+              "New ticket"
+            ],
+            [
+              "Customer attachment",
+              "WhatsApp",
+              "Linked"
+            ],
+            [
+              "Reply draft",
+              "Agent workspace",
+              "Review"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "02"
+            }
+          ]
+        }
+      },
+      {
+        "title": "AI triage",
+        "caption": "Track requests from intake to documented resolution: ai triage.",
+        "screen": {
+          "description": "Track requests from intake to documented resolution: ai triage. Illustrative sample records only.",
+          "heading": "AI triage",
+          "layout": "builder",
+          "sidebar": [
+            "Omnichannel Intake",
+            "AI Triage & Routing",
+            "Ticket Workspace",
+            "Escalation & SLA Management",
+            "Customer Portal"
+          ],
+          "columns": [
+            "Suggestion",
+            "Value",
+            "Review"
+          ],
+          "rows": [
+            [
+              "Category",
+              "Account access",
+              "Suggested"
+            ],
+            [
+              "Priority",
+              "High",
+              "Agent review"
+            ],
+            [
+              "Assignment",
+              "IT team",
+              "Suggested"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "03"
+            }
+          ]
+        }
+      },
+      {
+        "title": "SLA timer & escalation",
+        "caption": "Track requests from intake to documented resolution: sla timer & escalation.",
+        "screen": {
+          "description": "Track requests from intake to documented resolution: sla timer & escalation. Illustrative sample records only.",
+          "heading": "SLA timer & escalation",
+          "layout": "sla",
+          "sidebar": [
+            "Omnichannel Intake",
+            "AI Triage & Routing",
+            "Ticket Workspace",
+            "Escalation & SLA Management",
+            "Customer Portal"
+          ],
+          "columns": [
+            "Target",
+            "Remaining",
+            "Status"
+          ],
+          "rows": [
+            [
+              "First response",
+              "00:24:00",
+              "At risk"
+            ],
+            [
+              "Resolution",
+              "03:10:00",
+              "Running"
+            ],
+            [
+              "Escalation",
+              "Team lead",
+              "Notified"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "04"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Resolution with RCA",
+        "caption": "Track requests from intake to documented resolution: resolution with rca.",
+        "screen": {
+          "description": "Track requests from intake to documented resolution: resolution with rca. Illustrative sample records only.",
+          "heading": "Resolution with RCA",
+          "layout": "report",
+          "sidebar": [
+            "Omnichannel Intake",
+            "AI Triage & Routing",
+            "Ticket Workspace",
+            "Escalation & SLA Management",
+            "Customer Portal"
+          ],
+          "columns": [
+            "Record",
+            "Detail",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Resolution",
+              "Access restored",
+              "Agent verified"
+            ],
+            [
+              "Root cause",
+              "Policy mismatch",
+              "Draft reviewed"
+            ],
+            [
+              "Linked incident",
+              "INC-024",
+              "Documented"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "05"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Customer portal",
+        "caption": "Track requests from intake to documented resolution: customer portal.",
+        "screen": {
+          "description": "Track requests from intake to documented resolution: customer portal. Illustrative sample records only.",
+          "heading": "Customer portal",
+          "layout": "table",
+          "sidebar": [
+            "Omnichannel Intake",
+            "AI Triage & Routing",
+            "Ticket Workspace",
+            "Escalation & SLA Management",
+            "Customer Portal"
+          ],
+          "columns": [
+            "Request",
+            "Updated",
+            "Status"
+          ],
+          "rows": [
+            [
+              "TCK-1042",
+              "Today",
+              "Resolved"
+            ],
+            [
+              "TCK-1037",
+              "Yesterday",
+              "In progress"
+            ],
+            [
+              "Help article",
+              "Access guide",
+              "Published"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "06"
+            }
+          ]
+        }
+      },
+      {
+        "title": "SLA report",
+        "caption": "Track requests from intake to documented resolution: sla report.",
+        "screen": {
+          "description": "Track requests from intake to documented resolution: sla report. Illustrative sample records only.",
+          "heading": "SLA report",
+          "layout": "dashboard",
+          "sidebar": [
+            "Omnichannel Intake",
+            "AI Triage & Routing",
+            "Ticket Workspace",
+            "Escalation & SLA Management",
+            "Customer Portal"
+          ],
+          "columns": [
+            "Metric",
+            "Period",
+            "Result"
+          ],
+          "rows": [
+            [
+              "SLA compliance",
+              "Month",
+              "96%"
+            ],
+            [
+              "CSAT",
+              "Month",
+              "4.6 / 5"
+            ],
+            [
+              "Resolved tickets",
+              "Month",
+              "184"
+            ]
+          ],
+          "metrics": [
+            {
+              "label": "Sample records",
+              "value": "03"
+            },
+            {
+              "label": "Needs review",
+              "value": "01"
+            },
+            {
+              "label": "Step",
+              "value": "07"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

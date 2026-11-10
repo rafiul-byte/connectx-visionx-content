@@ -1,0 +1,69 @@
+{
+  "slug": "connectx",
+  "name": "ConnectX",
+  "icon": null,
+  "category": "Collaboration",
+  "tagline": "The contact center with an AI agent inside.",
+  "description": "IP telephony, AI voice agents, omnichannel routing and agent workspaces with supervisor tools, recording, reporting and workforce management.",
+  "overview": "ConnectX brings IP telephony, self-service, routing and agent operations into one contact-center platform. An AI voice agent handles supported questions using approved content and connected systems, with identity checks and a contextual handoff when a person is needed. Agents work across voice, chat, email, WhatsApp and social channels, while supervisors review recordings, quality scores, queues and workforce performance. Customer-managed deployment supports existing IP handsets and integration with banking, CRM and operational systems.",
+  "aiEdge": "AI supports voice conversations, knowledge-based answers, transcription, quality scoring and workforce forecasting. Identity policies and approved sources govern responses; sensitive operations are handed to a human. Connect your own Claude or Gemini API key in Settings and pay your provider directly.",
+  "features": [
+    {
+      "title": "AI Virtual Agent",
+      "text": "Answer supported voice and chat questions from approved sources, apply identity policies and hand off to an agent with conversation context."
+    },
+    {
+      "title": "IVR & Self-Service",
+      "text": "Design menus visually, collect masked sensitive inputs and connect supported self-service operations to authorized business systems."
+    },
+    {
+      "title": "ACD & Routing",
+      "text": "Route by agent skills and priority, announce wait times and offer callbacks or queue overflow when the right agent is unavailable."
+    },
+    {
+      "title": "Agent Desktop & CTI",
+      "text": "Handle voice, chat, email and social in one browser workspace with customer context, a WebRTC softphone and wrap-up reason codes."
+    },
+    {
+      "title": "Supervisor & Quality",
+      "text": "Listen, whisper or join live calls, review synchronized voice and screen recordings and use transcription and AI-assisted quality scoring."
+    },
+    {
+      "title": "Omnichannel & Knowledge",
+      "text": "Bring phone, web chat, WhatsApp, email and social into a universal queue with customer history, suggested knowledge and CRM synchronization."
+    },
+    {
+      "title": "Reporting & Wallboards",
+      "text": "Review service levels and drill into individual calls, display browser wallboards and prepare scheduled reporting and Power BI connections."
+    },
+    {
+      "title": "Workforce & Dialer",
+      "text": "Forecast demand, prepare rosters and monitor adherence while coordinating predictive, progressive and preview outbound campaigns."
+    },
+    {
+      "title": "Platform & Security",
+      "text": "Support encrypted SIP telephony, customer-managed infrastructure, administrative MFA, role-based playback and an append-only AI audit trail."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Connect and configure",
+      "text": "Connect authorized phone trunks and business systems, prepare approved knowledge and define identity, IVR and routing policies."
+    },
+    {
+      "title": "Answer and hand off",
+      "text": "Let the AI agent handle supported questions, then route sensitive or unresolved requests to a skilled agent with full context."
+    },
+    {
+      "title": "Review and improve",
+      "text": "Review recordings, quality scores, service levels and workforce adherence to refine customer service with human oversight."
+    }
+  ],
+  "audience": [
+    "Banks & financial institutions",
+    "Customer service teams",
+    "Contact-center operators",
+    "Enterprise support teams"
+  ],
+  "evaluation": "Bring your channel requirements, concurrent-agent count, approved telephony provider, identity policies and integration specifications. Confirm language coverage, deployment topology, retention, training and support terms during evaluation. No hosting region or certification is implied."
+}
